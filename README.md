@@ -6,4 +6,5 @@ Mice interact with FED3 through two nose-pokes and FED3 responds to the mice wit
 
 The default code includes multiple built-in programs but FED3 is open-source and hackable, and can be easily modified to perform other tasks. This page will contain the latest version of the FED3 code and code variants, as well as 3D files.
 
-[Image](https://cdn.hackaday.io/images/240821562632640547.a926840c0d090b1be404c0d4c1bcd3d6)
+![FED3](https://cdn.hackaday.io/images/240821562632640547.a926840c0d090b1be404c0d4c1bcd3d6)
+
