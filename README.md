@@ -1,6 +1,6 @@
 ## Feeding Experimentation Device version 3 (FED3)
 
-![FED3](https://photos.app.goo.gl/qe3dsCyyQoyQqdWz8)
+![FED3](https://lh3.googleusercontent.com/pw/ACtC-3dgcDmqHUg5aI7A3zCE63xksr88bDn4C2JXU3Cp1BKng1oLpw2h4WPtp7OVoj12pE29-TujuWELqL70d40IVDTzLhzTtbAa8Sg3zCncWmM8vqIQ4_mgyKMrTAYyFApX3xahbyul_0v-SKml1L1Iv_SLgw=w1288-h966-no?authuser=0)
 
 FED3 is an open-source battery-powered device for home-cage training of mice in operant tasks. FED3 was designed to be 3D printed and the control code was written in the Arduino language to be run on a [Feather M0 Adalogger](https://www.adafruit.com/product/2796) microcontroller inside of FED3.
 
