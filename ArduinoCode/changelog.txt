@@ -1,1 +1,3 @@
-June 2, 2020: Uploaded version 1.83 of the code, to run on the OEPS FED device
+June 2, 2020: 
+Uploaded version 1.83 of the code, to run on the OEPS FED device
+Uploaded verison 1.0 of the Set_clock code.  
