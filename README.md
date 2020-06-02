@@ -8,3 +8,6 @@ The default code includes multiple built-in programs but FED3 is open-source and
 
 ![FED3](https://lh3.googleusercontent.com/pw/ACtC-3c2EJeoPQeivNZuvnyHQXTyHCt_50D3BiV4zlnHBTjWsE2O0lrmPtEacpNh--ouRnThKTK-tVCW7jkizILeXWHkbJmG_ZtQme_yMEzGQiF8YPEQ971hPdx0ixYvAM53v-NdDeOy1HB1jQ1fmDKbQWYdPw=w1206-h966-no?authuser=0)
 
+![FED3](https://lh3.googleusercontent.com/pw/ACtC-3db0fUHRPNKlZF1dtDKbmvpJS8rSdWjRA2Dfcq_Ut-zFr79IExP2LEMyuNb5nM3-pnx7KiowgDGjbR-ww5scKbPOkK7bVetpQHxEnNelLnl26NSyOAAarZaQ2ut7eZAqZfllZBq0dUxI2uWSJrgQJ_wvA=w1233-h966-no?authuser=0)
+
+
