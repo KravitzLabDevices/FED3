@@ -13,7 +13,4 @@ FED3 is open-source and can be built from scratch by users. However, if you woul
 ![FED3](https://lh3.googleusercontent.com/pw/ACtC-3db0fUHRPNKlZF1dtDKbmvpJS8rSdWjRA2Dfcq_Ut-zFr79IExP2LEMyuNb5nM3-pnx7KiowgDGjbR-ww5scKbPOkK7bVetpQHxEnNelLnl26NSyOAAarZaQ2ut7eZAqZfllZBq0dUxI2uWSJrgQJ_wvA=w1233-h966-no?authuser=0)
 
 Significant contributors to FED3 hardware include:
-    Lex Kravitz (Washington University)
-    Mohamed Ali (University of Maryland)
-    Katrina Nguyen (Carnegie Mellon)
-    Filipe Carvalho (Champalimaud Foundation)
+Lex Kravitz (Washington University), Mohamed Ali (University of Maryland), Katrina Nguyen (Carnegie Mellon), Filipe Carvalho (Champalimaud Foundation)
