@@ -8,8 +8,6 @@ The default code includes multiple built-in programs but FED3 is open-source and
 
 FED3 is open-source and can be built from scratch by users. However, if you would like to purchase FED3 it is also being sold by the [Open Ephys Production Site](https://open-ephys.org/fed3/fed3).  
 
-![FED3](https://raw.githubusercontent.com/KravitzLabDevices/FED3/master/photos/FED3.png)
-
 ![FED3](https://raw.githubusercontent.com/KravitzLabDevices/FED3/master/photos/FED3_rotation.gif)
 
 Significant contributors to FED3 include:
