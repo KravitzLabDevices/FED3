@@ -11,4 +11,4 @@ FED3 is open-source and can be built from scratch by users. However, if you woul
 ![FED3](https://raw.githubusercontent.com/KravitzLabDevices/FED3/master/photos/FED3_rotation.gif)
 
 Significant contributors to FED3 include:
-Lex Kravitz (Washington University), Bridget Matikainen-Ankney (Washington University), Tom Earnest (Washington University)Mohamed Ali (University of Maryland), Katrina Nguyen (Carnegie Mellon), and Filipe Carvalho (Champalimaud Foundation), 
+Lex Kravitz (Washington University), Bridget Matikainen-Ankney (Washington University), Tom Earnest (Washington University), Mohamed Ali (University of Maryland), Katrina Nguyen (Carnegie Mellon), and Filipe Carvalho (Champalimaud Foundation), 
