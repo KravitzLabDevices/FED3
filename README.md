@@ -8,9 +8,9 @@ The default code includes multiple built-in programs but FED3 is open-source and
 
 FED3 is open-source and can be built from scratch by users. However, if you would like to purchase FED3 it is also being sold by the [Open Ephys Production Site](https://open-ephys.org/fed3/fed3).  
 
-![FED3](https://lh3.googleusercontent.com/pw/ACtC-3c2EJeoPQeivNZuvnyHQXTyHCt_50D3BiV4zlnHBTjWsE2O0lrmPtEacpNh--ouRnThKTK-tVCW7jkizILeXWHkbJmG_ZtQme_yMEzGQiF8YPEQ971hPdx0ixYvAM53v-NdDeOy1HB1jQ1fmDKbQWYdPw=w1206-h966-no?authuser=0)
+![FED3](https://raw.githubusercontent.com/KravitzLabDevices/FED3/master/photos/FED3.png)
 
-![FED3](https://lh3.googleusercontent.com/pw/ACtC-3db0fUHRPNKlZF1dtDKbmvpJS8rSdWjRA2Dfcq_Ut-zFr79IExP2LEMyuNb5nM3-pnx7KiowgDGjbR-ww5scKbPOkK7bVetpQHxEnNelLnl26NSyOAAarZaQ2ut7eZAqZfllZBq0dUxI2uWSJrgQJ_wvA=w1233-h966-no?authuser=0)
+![FED3](https://raw.githubusercontent.com/KravitzLabDevices/FED3/master/photos/FED3_rotation.gif)
 
 Significant contributors to FED3 include:
 Lex Kravitz (Washington University), Bridget Matikainen-Ankney (Washington University), Tom Earnest (Washington University)Mohamed Ali (University of Maryland), Katrina Nguyen (Carnegie Mellon), and Filipe Carvalho (Champalimaud Foundation), 
