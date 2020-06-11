@@ -1,1 +1,3 @@
+This page contains Eagle PCB design files (.sch and .brd files), as well as a Gerber zip that can be used directly for PCB manufacture.  The BOM contains all necessary electronics as well.  
+
 ![PCB](https://raw.githubusercontent.com/KravitzLabDevices/FED3/master/photos/FED3_062019_v6.0.png)
