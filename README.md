@@ -14,6 +14,6 @@ Significant contributors to FED3 include:
 Lex Kravitz (Washington University), Bridget Matikainen-Ankney (Washington University), Tom Earnest (Washington University), Mohamed Ali (University of Maryland), Katrina Nguyen (Carnegie Mellon), and Filipe Carvalho (Champalimaud Foundation and OEPS).
 
 <br>
-This project is released under the terms of the Creative Commons - Attribution - ShareAlike 3.0 license:
-human readable:https://creativecommons.org/licenses/by-sa/3.0/
+This project is released under the terms of the Creative Commons - Attribution - ShareAlike 3.0 license:<br>
+human readable:https://creativecommons.org/licenses/by-sa/3.0/<br>
 legal wording:https://creativecommons.org/licenses/by-sa/3.0/legalcode
