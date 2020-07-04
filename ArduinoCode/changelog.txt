@@ -1,6 +1,11 @@
+July 3, 2020:
+Uploaded version 1.1.3 fixing a bug affecting how very short retrieval times are logged in FED3
+
+June 13, 2020:
+Uploaded version 1.1.1, with minor battery display bug fixed
+
 June 2, 2020: 
 Uploaded version 1.00 of the code, to run on the OEPS FED device
 Uploaded verison 1.0 of the Set_clock code.  
 
-June 13, 2020:
-Uploaded version 1.01, with minor battery display bug fixed
+
