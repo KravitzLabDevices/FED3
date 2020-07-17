@@ -1,5 +1,5 @@
 July 17th, 2020:
-Verison 1.1.41 sped up pellet detection time.  Previously there was a 1s delay in detecting the pellet, to reduce false positives where mouse may break the beam with his nose.  We found that some mice were outwitting FED and taking the pellet within this 1s delay, causing FED to dispense a second pellet.  This code no longer has a detection delay.
+Version 1.1.41 speeds up pellet detection time after dispensing. Previously there was a 1s delay in detecting the pellet to reduce false positives if the mouse broke the beam with his nose. We found that some mice were taking the pellet within this 1s delay, causing FED to dispense a second pellet. This code no longer has a detection delay so multiple dispensing is reduced. 
 
 July 3, 2020:
 Uploaded version 1.1.3 fixing a bug affecting how very short retrieval times are logged in FED3
