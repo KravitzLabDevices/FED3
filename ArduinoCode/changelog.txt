@@ -1,4 +1,7 @@
 July 17th, 2020:
+Version 1.1.42 Display version number on screen at startup
+
+July 17th, 2020:
 Version 1.1.41 speeds up pellet detection time after dispensing. Previously there was a 1s delay in detecting the pellet to reduce false positives if the mouse broke the beam with his nose. We found that some mice were taking the pellet within this 1s delay, causing FED to dispense a second pellet. This code no longer has a detection delay so multiple dispensing is reduced. 
 
 July 3, 2020:
