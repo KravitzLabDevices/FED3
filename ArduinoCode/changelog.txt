@@ -1,3 +1,6 @@
+August 27, 2020:
+Version 1.1.46 Removed dual-poke "reset" function because I found some mice were activating it! Fixed a bug in the Neopixel code for "Light tracking"
+
 July 20, 2020:
 Version 1.1.44 Log version number to the FED datafile
 
