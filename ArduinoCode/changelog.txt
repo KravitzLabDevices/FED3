@@ -1,3 +1,6 @@
+August 30th, 2020:
+Version 1.1.47 Fixed a bug in the free feeding task, where processor could get stuck asleep and stop dispensing pellets
+
 August 27, 2020:
 Version 1.1.46 Removed dual-poke "reset" function because I found some mice were activating it! Fixed a bug in the Neopixel code for "Light tracking"
 
