@@ -14,7 +14,7 @@ Navigate to FED3.zip and click install.  This will install the FED3 libary in yo
 
 4. Re-start the Arduino IDE
 
-5. When you open it again you should find the FED3 examples under File > Examples > FED3.
+5. When you open it again you should find the FED3 examples under File > Examples > FED3.  There are currently 3 examples, including "Classic FED3" which should mimic the normal function of FED3.
 ![FED3 example](https://raw.githubusercontent.com/KravitzLabDevices/FED3/master/photos/FED3example.png)
 
 6. Play around and send feedback if you find bugs!
