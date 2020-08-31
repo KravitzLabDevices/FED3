@@ -1,6 +1,6 @@
-This is the FED3 library, BETA version 0.0.1!  This code is new and almost certainly contains bugs, please only use it for testing purposes.
+##This is the FED3 library, BETA version 0.0.1!  This code is new and almost certainly contains bugs, please only use it for testing purposes.
 
-#The goal of this library is to operate most of the housekeeping functions of FED3, and let the user focus on writing only the behavioral control.  This is in active development, better documentation is pending.
+The goal of this library is to operate most of the housekeeping functions of FED3, and let the user focus on writing only the behavioral control.  This is in active development, better documentation is pending.
 
 ## Installation instructions
 1. First download the support libraries FED3 need as [FED3_libraries.zip](https://github.com/KravitzLabDevices/FED3/blob/master/FED3_library/FED3_support_libraries.zip). Unzip the contents of this to your Arduino libraries folder (usually this is: Documents\Arduino\libraries). 
