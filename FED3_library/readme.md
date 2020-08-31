@@ -1,4 +1,5 @@
-##This is the FED3 library, BETA version 0.0.1!  This code is new and almost certainly contains bugs, please only use it for testing purposes.
+## This is the FED3 library, beta version 0.0.1
+This code is new and almost certainly contains bugs, please only use it for testing purposes.
 
 The goal of this library is to operate most of the housekeeping functions of FED3, and let the user focus on writing only the behavioral control.  This is in active development, better documentation is pending.
 
