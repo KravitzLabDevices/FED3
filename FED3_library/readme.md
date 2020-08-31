@@ -17,7 +17,7 @@ A window will pop up.  Navigate to FED3.zip and click install.  This will instal
 
 5. When you open it again you should find the FED3 examples under File > Examples > FED3.  There are currently 3 examples, including "Classic FED3" which mimics the normal function of FED3, with the built-in programs.
 
-![FED3 example](https://raw.githubusercontent.com/KravitzLabDevices/FED3/master/photos/FED3example.png)
+![FED3 example](https://raw.githubusercontent.com/KravitzLabDevices/FED3/master/photos/FED3example2.png)
 
 6. Play around and send feedback if you find bugs!
 
