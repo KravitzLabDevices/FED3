@@ -13,7 +13,7 @@ The goal of this library is to automate most of the housekeeping functions of FE
 
 A window will pop up.  Navigate to FED3.zip and click install.  This will install the FED3 libary in your Arduino IDE.
 
-4. Install all FED3 dependencies (in /extras)
+4. Install all FED3 library dependencies (in /extras)
 
 5. Re-start the Arduino IDE
 
