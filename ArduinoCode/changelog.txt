@@ -1,3 +1,6 @@
+Oct 10th, 2020:
+Version 1.1.48 turned off the "CheckReset" function once the FED has started up.  This function enabled the user to reset the FED by poking on both pokes.  However, rarely, the mice were doing this and resetting FED during a session!  Now the user can only reset once a session has started with the hardware switch.
+
 August 30th, 2020:
 Version 1.1.47 Fixed a bug in the free feeding task, where processor could get stuck asleep and stop dispensing pellets
 
