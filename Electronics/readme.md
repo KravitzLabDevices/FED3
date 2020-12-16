@@ -2,3 +2,4 @@ This page contains Eagle PCB design files (.sch and .brd files), as well as a Ge
 
 ![PCB](https://raw.githubusercontent.com/KravitzLabDevices/FED3/master/photos/FED3_122019_v6.2.png)
 ![PCB2](https://raw.githubusercontent.com/KravitzLabDevices/FED3/master/photos/OEPS_circuit5.jpg)
+![Pinouts](https://raw.githubusercontent.com/KravitzLabDevices/FED3/master/photos/Pinouts.jpg)
