@@ -1,0 +1,15 @@
+MM:DD:YYYY hh:mm:ss,FED_Version,Device_Number,Battery_Voltage,Motor_Turns,Session_Type,Event,Active_Poke,Left_Poke_Count,Right_Poke_Count,Pellet_Count,Retrieval_Time
+8/14/2020 10:44:33,1.1.45,3,4.14,0,FR1,Poke,Left,1,0,0,nan
+8/14/2020 10:45:02,1.1.45,3,4.15,20,FR1,Pellet,Left,1,0,1,2
+8/14/2020 10:47:33,1.1.45,3,4.16,0,FR1,Poke,Left,2,0,1,nan
+8/14/2020 10:47:38,1.1.45,3,4.16,2,FR1,Pellet,Left,2,0,2,1
+8/14/2020 10:47:41,1.1.45,3,4.16,0,FR1,Poke,Left,3,0,2,nan
+8/14/2020 10:47:44,1.1.45,3,4.16,1,FR1,Pellet,Left,3,0,3,0
+8/14/2020 10:47:48,1.1.45,3,4.16,0,FR1,Poke,Left,4,0,3,nan
+8/14/2020 10:47:50,1.1.45,3,4.16,1,FR1,Pellet,Left,4,0,4,0
+8/14/2020 10:47:53,1.1.45,3,4.16,0,FR1,Poke,Left,5,0,4,nan
+8/14/2020 10:48:00,1.1.45,3,4.16,4,FR1,Pellet,Left,5,0,5,1
+8/14/2020 16:02:42,1.1.45,3,4.11,0,FR1,Poke,Left,6,0,5,nan
+8/14/2020 16:02:52,1.1.45,3,4.11,3,FR1,Pellet,Left,6,0,6,4
+8/14/2020 16:37:04,1.1.45,3,4.11,0,FR1,Poke,Left,7,0,6,nan
+8/14/2020 16:37:14,1.1.45,3,4.11,2,FR1,Pellet,Left,7,0,7,5

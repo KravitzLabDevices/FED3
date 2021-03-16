@@ -1,0 +1,8 @@
+MM:DD:YYYY hh:mm:ss,Device_Number,Battery_Voltage,Motor_Turns,Session_Type,Event,Active_Poke,Left_Poke_Count,Right_Poke_Count,Pellet_Count,Retrieval_Time
+8/4/2020 15:44:44,0,3.72,0,1,Poke,Left,1,0,0,nan
+8/4/2020 15:46:23,0,3.69,20,1,Pellet,Left,1,0,1,30
+8/4/2020 15:46:26,0,3.69,0,1,Poke,Left,2,0,1,nan
+8/4/2020 15:54:15,0,3.70,8,1,Pellet,Left,2,0,2,Timed_out
+8/4/2020 15:56:05,0,3.70,0,1,Poke,Left,2,1,2,nan
+8/4/2020 15:56:08,0,3.70,0,1,Poke,Left,3,1,2,nan
+8/4/2020 15:56:54,0,3.70,2,1,Pellet,Left,3,1,3,38
