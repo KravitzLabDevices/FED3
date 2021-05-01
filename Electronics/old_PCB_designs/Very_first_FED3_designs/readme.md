@@ -2,4 +2,4 @@ This page contains early PCB designs for "operant FED", which we later started c
 
 Designed by Mohamed Ali.
 
-![FEDv7](https://raw.githubusercontent.com/KravitzLabDevices/FED3/main/photos/OldPCBOpFEDv7.png)
+![FEDv7](https://raw.githubusercontent.com/KravitzLabDevices/FED3/main/photos/OldPCBOpFEDv4.png)
