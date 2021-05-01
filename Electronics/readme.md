@@ -7,7 +7,7 @@ Copyright 2021 Mohamed Ali, FIlipe Carvalho, Alexxai Kravitz
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/igo/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/igo/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/igo/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO License</a>.
 
-If your are interested in obtaining a license to sell this device, please contact the authors trough filipe@open-ephys.org and lex.kravitz@gmail.com
+If your are interested in obtaining a license to sell this device, please contact the authors through filipe@open-ephys.org and lex.kravitz@gmail.com
 
 ## Description
 
