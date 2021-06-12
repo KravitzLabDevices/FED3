@@ -1,0 +1,1 @@
+This repo contains slight tweaks to make assembly easier, removing material from the disk that can impede the brass insert, adding an extra hole for inserting a screwdriver for mounting hole #2 and removing the USB port opening in the side door.
