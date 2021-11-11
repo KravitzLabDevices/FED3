@@ -6,7 +6,7 @@ Mice interact with FED3 through two nose-pokes and FED3 responds with visual sti
 
 The default code includes multiple built-in programs but FED3 is open-source and hackable, and can be easily modified to perform other tasks. This page will contain the latest version of the FED3 code and code variants, as well as 3D files.  More information on the build process and history of FED3 can be found at the [FED3 Hackaday.io page](https://hackaday.io/project/106885-feeding-experimentation-device-3-fed3).  You can also check out the [FED3 Google group](https://groups.google.com/forum/#!forum/fedforum). Finally, you can download [FED3_Viz](https://github.com/KravitzLabAnalyses/FED3_Viz) an analysis application for processing FED3 data in Python.
 
-FED3 is open-source and can be built from scratch by users. However, if you would like to purchase FED3 it is also being sold by the [Open Ephys Production Site](https://open-ephys.org/fed3/fed3) (OEPS).  
+FED3 is open-source and can be built from scratch by users. However, if you would like to purchase FED3 it is also being sold by the [Open Ephys Production Site](https://open-ephys.org/fed3/fed3) (OEPS) and [LabMaker](https://www.labmaker.org/products/fed3). The Kravitz lab is not financially involved with either of these sources but is supportive of their efforts to disseminate open-source tools!
 
 ![FED3](https://raw.githubusercontent.com/KravitzLabDevices/FED3/main/photos/FED3_rotation.gif)
 
