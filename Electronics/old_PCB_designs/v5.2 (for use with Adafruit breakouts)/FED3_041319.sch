@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2256,7 +2256,7 @@ Source: amp_227161.pdf</description>
 <part name="BEEP2" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="RTC" library="pinhead" deviceset="PINHD-1X5" device=""/>
 <part name="X1" library="con-coax" deviceset="?227161*" device="1-" technology="-0"/>
-<part name="I2C" library="pinhead" deviceset="PINHD-1X4" device=""/>
+<part name="AUX_I2C" library="pinhead" deviceset="PINHD-1X4" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2359,7 +2359,7 @@ Source: amp_227161.pdf</description>
 <attribute name="VALUE" x="96.52" y="50.8" size="1.778" layer="96"/>
 <attribute name="NAME" x="96.52" y="59.182" size="1.778" layer="95"/>
 </instance>
-<instance part="I2C" gate="A" x="30.48" y="17.78" smashed="yes">
+<instance part="AUX_I2C" gate="A" x="30.48" y="17.78" smashed="yes">
 <attribute name="NAME" x="24.13" y="26.035" size="1.778" layer="95"/>
 <attribute name="VALUE" x="24.13" y="10.16" size="1.778" layer="96"/>
 </instance>
@@ -2503,7 +2503,7 @@ Source: amp_227161.pdf</description>
 <label x="104.14" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="I2C" gate="A" pin="4"/>
+<pinref part="AUX_I2C" gate="A" pin="4"/>
 <wire x1="27.94" y1="15.24" x2="12.7" y2="15.24" width="0.1524" layer="91"/>
 <label x="12.7" y="15.24" size="1.778" layer="95"/>
 </segment>
@@ -2593,7 +2593,7 @@ Source: amp_227161.pdf</description>
 <label x="40.64" y="25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="I2C" gate="A" pin="1"/>
+<pinref part="AUX_I2C" gate="A" pin="1"/>
 <wire x1="27.94" y1="22.86" x2="12.7" y2="22.86" width="0.1524" layer="91"/>
 <label x="12.7" y="22.86" size="1.778" layer="95"/>
 </segment>
@@ -2731,7 +2731,7 @@ Source: amp_227161.pdf</description>
 <segment>
 <wire x1="27.94" y1="17.78" x2="12.7" y2="17.78" width="0.1524" layer="91"/>
 <label x="12.7" y="17.78" size="1.778" layer="95"/>
-<pinref part="I2C" gate="A" pin="3"/>
+<pinref part="AUX_I2C" gate="A" pin="3"/>
 </segment>
 <segment>
 <pinref part="RTC" gate="A" pin="3"/>
@@ -2748,7 +2748,7 @@ Source: amp_227161.pdf</description>
 <segment>
 <wire x1="27.94" y1="20.32" x2="12.7" y2="20.32" width="0.1524" layer="91"/>
 <label x="12.7" y="20.32" size="1.778" layer="95"/>
-<pinref part="I2C" gate="A" pin="2"/>
+<pinref part="AUX_I2C" gate="A" pin="2"/>
 </segment>
 <segment>
 <pinref part="RTC" gate="A" pin="4"/>
