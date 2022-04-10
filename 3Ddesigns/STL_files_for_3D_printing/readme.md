@@ -1,7 +1,2 @@
-This update makes the SD door easier to use, and also adds the housing for FED3.1!
-
-FED3.1 housing has small holes inside of the pokes for LED lights, and can be used with FED3.0 or FED3.1 electronics.
-
-![FED3.1](https://raw.githubusercontent.com/KravitzLabDevices/FED3/main/photos/FED3.1.jpg)
-
+Download these files and slice them for your 3D printer.  These should be printed in the orientation they are in, and only the housing will need supports to print.  Try printing them slowly and at high quality for best results.  The critical parts to print well are the housing and the disk, as these parts form the dispensing mechanism. The print quality of the lid and covers won't affect function.
 
