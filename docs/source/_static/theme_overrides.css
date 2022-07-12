@@ -1,0 +1,390 @@
+/* import fonts */
+@font-face {
+  font-family: "Source Sans";
+  src: url("fonts/SourceSansPro-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Source Sans";
+  font-style: italic;
+  src: url("fonts/SourceSansPro-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Source Sans";
+  font-weight: bold;
+  src: url("fonts/SourceSansPro-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Bitter";
+  src: url("fonts/Bitter-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Bitter";
+  src: url("fonts/Bitter-Italic.ttf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Bitter";
+  src: url("fonts/Bitter-Bold.ttf");
+  font-weight: bold;
+}
+
+/* navigation bar: set header bar color*/
+.navbar {
+  background: #afc991 !important;
+  font-size: 1em;
+}
+
+/* navigation bar text color*/
+
+.navbar a {
+  color: white !important;
+  font-family: "Bitter", sans-serif;
+  margin-right: 10px;
+}
+
+
+/* navigation bar: text color of page titles when hovered*/
+.navbar a:hover {
+  color: #2f401f !important;
+  transition-duration: 0.4s;
+}
+
+/* navigation bar when hovered upon: text color and transition duration of active page when hovered*/
+.navbar-nav > .active > .nav-link:hover {
+  color: #2f401f !important;
+  transition-duration: 0.4s;
+}
+
+/* navigation bar when selected: text background color and text color when section is selected*/
+.navbar-nav > .active > .nav-link {
+  background-color: #e6eddf !important;
+  color: #2f401f !important;
+  font-weight: normal !important;
+  transition-duration: 0.4s;
+}
+
+/* left side links */
+.bd-links > .active a {
+  color: #3c81be !important;
+  transition-duration: 0.4s;
+}
+
+.bd-links > .active a:hover {
+  color: #5fb5dc !important;
+  transition-duration: 0.4s;
+  transform: translate(2px, 0px);
+}
+
+/* right side links */
+.toc-entry > .nav-link.active {
+  font-weight: 600;
+  color: #344b39;
+  background-color: transparent;
+  border-left: 2px solid #da714a;
+}
+
+/* body links (external) */
+a {
+  color: #0086b3;
+}
+
+a:hover {
+  color: #004d66;
+  text-decoration: none;
+}
+
+a.reference.external:after {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: ' \f35d';
+  font-size: 0.5em;
+  vertical-align: super;
+}
+
+a.external-link:after {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: ' \f35d';
+  font-size: 0.5em;
+  vertical-align: super;
+}
+
+/* header links */
+a.headerlink {
+  color: white;
+  transition-duration: 0.2s;
+}
+
+a.headerlink:hover {
+  color: #ceacca;
+  background-color: white;
+  transition-duration: 0.2s;
+}
+
+/* text fonts and colors */
+body {
+  background-color: white;
+  margin-bottom: 1.15rem;
+  font-size: 1em;
+  padding-top: 100px;
+  color: #242c16;
+  font-family: "Source Sans", sans-serif;
+}
+
+h1 {
+  margin: 2.75rem 0 1.05rem;
+  font-family: "Bitter", sans-serif;
+  font-weight: 400;
+  line-height: 1.15;
+  margin-top: 0;
+  color: #242c16;
+  font-size: 2.2em;
+}
+
+h2 {
+  margin: 2.75rem 0 1.05rem;
+  font-family: "Bitter", sans-serif;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #242c16;
+  font-size: 1.5em;
+}
+
+h3 {
+  margin: 0rem 0 1.05rem;
+  font-family: "Bitter", sans-serif;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #242c16;
+  font-size: 1.3em;
+}
+
+h4 {
+  margin: 2.75rem 0 1.05rem;
+  font-family: "Bitter", sans-serif;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #242c16;
+  font-size: 1.1em;
+}
+
+h5 {
+  margin: 2.75rem 0 1.05rem;
+  font-family: "Source Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #242c16;
+  font-size: 1.1em;
+}
+
+h6 {
+  margin: 2.75rem 0 1.05rem;
+  font-family: "Source Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #242c16;
+  font-size: 1em;
+}
+
+/* define admonition colors */
+.admonition.attention {
+  border-color: #927a90;
+}
+
+.attention > .admonition-title {
+  background-color: #efe8ef !important;
+}
+
+.attention > .admonition-title:before {
+  color: #927a90 !important;
+}
+
+.admonition.note {
+  border-color: #5fb5dc;
+}
+
+.note > .admonition-title {
+  background-color: #d9e7f3 !important;
+}
+
+.note > .admonition-title:before {
+  color: #5fb5dc !important;
+}
+
+.admonition.error {
+  border-color: #da714a;
+}
+
+.error > .admonition-title {
+  background-color: #f1d7c7 !important;
+}
+
+.error > .admonition-title:before {
+  color: #da714a !important;
+}
+
+.admonition.warning {
+  border-color: #da714a;
+}
+
+.warning > .admonition-title {
+  background-color: #f1d7c7 !important;
+}
+
+.warning > .admonition-title:before {
+  color: #da714a !important;
+}
+
+.admonition.danger {
+  border-color: #da714a;
+}
+
+.danger > .admonition-title {
+  background-color: #f1d7c7 !important;
+}
+
+.danger > .admonition-title:before {
+  color: #da714a !important;
+}
+
+.admonition.caution {
+  border-color: #f4d050;
+}
+
+.caution > .admonition-title {
+  background-color: #f9f2d5 !important;
+}
+
+.caution > .admonition-title:before {
+  color: #f4d050 !important;
+}
+
+.admonition.tip {
+  border-color: #519141;
+}
+
+.tip > .admonition-title {
+  background-color: #d1dac5 !important;
+}
+
+.tip > .admonition-title:before {
+  color: #519141 !important;
+}
+
+.admonition.hint {
+  border-color: #519141;
+}
+
+.hint > .admonition-title {
+  background-color: #d1dac5 !important;
+}
+
+.hint > .admonition-title:before {
+  color: #519141 !important;
+}
+
+/* logo */
+.navbar-brand {
+  position: relative;
+  height: 60px;
+  width: auto;
+}
+
+/* format search bar */
+.bd-search {
+  position: relative;
+  padding: 1rem 15px;
+  margin-right: -15px;
+  margin-left: -15px;
+  outline: none;
+}
+
+.form-control {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.form-control:focus {
+  outline: black !important;
+  box-shadow: none !important;
+  border: 1px !important;
+}
+
+form:focus {
+  outline: black !important;
+  box-shadow: none !important;
+  border: 1px !important;
+}
+
+/* override table width restrictions */
+@media screen and (min-width: 767px) {
+  .wy-table-responsive table td {
+    /* !important prevents the common CSS stylesheets from overriding
+          this as on RTD they are loaded after this stylesheet */
+    white-space: normal !important;
+  }
+
+  .wy-table-responsive {
+    overflow: visible !important;
+  }
+}
+
+.card-img-top {
+  margin-top: 4em;
+}
+
+.col-lg-6 {
+  margin-top: 2em;
+}
+
+/* list line spacing */
+/* ol.simple {
+  margin-bottom: 1em;
+}
+
+
+
+ul.simple {
+  margin-bottom: 1em;
+}
+*/
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5;
+}
+
+/* List items in main area, but not in side bars */
+body > li,
+p {
+  line-height: 1.5;
+  margin: 0.3em 0;
+}
+
+/* ensure images stay within the column bounds*/
+img {
+  max-width: 100%;
+}
+
+/* allow center-aligned images*/
+
+img.align-center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/* change color of Twitter logo */
+i.fa-twitter-square:before {
+  color: #333;
+}

@@ -1,9 +1,0 @@
-MM:DD:YYYY hh:mm:ss,FED_Version,Device_Number,Battery_Voltage,Motor_Turns,Session_Type,Event,Active_Poke,Left_Poke_Count,Right_Poke_Count,Pellet_Count,Retrieval_Time
-8/15/2020 15:25:34,1.1.45,0,4.22,0,FR1,Poke,Left,1,0,0,nan
-8/15/2020 15:25:39,1.1.45,0,4.22,3,FR1,Pellet,Left,1,0,1,0
-8/15/2020 15:25:51,1.1.45,0,4.19,0,FR1,Poke,Left,2,0,1,nan
-8/15/2020 15:25:53,1.1.45,0,4.19,1,FR1,Pellet,Left,2,0,2,0
-8/15/2020 15:26:00,1.1.45,0,4.19,0,FR1,Poke,Left,3,0,2,nan
-8/15/2020 15:26:04,1.1.45,0,4.18,1,FR1,Pellet,Left,3,0,3,2
-8/15/2020 15:26:09,1.1.45,0,4.18,0,FR1,Poke,Left,4,0,3,nan
-8/15/2020 15:26:13,1.1.45,0,4.19,1,FR1,Pellet,Left,4,0,4,2

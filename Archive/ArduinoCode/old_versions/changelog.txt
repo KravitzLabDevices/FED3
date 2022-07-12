@@ -1,0 +1,29 @@
+Oct 10th, 2020:
+Version 1.1.48 turned off the "CheckReset" function once the FED has started up.  This function enabled the user to reset the FED by poking on both pokes.  However, rarely, the mice were doing this and resetting FED during a session!  Now the user can only reset once a session has started with the hardware switch.
+
+August 30th, 2020:
+Version 1.1.47 Fixed a bug in the free feeding task, where processor could get stuck asleep and stop dispensing pellets
+
+August 27, 2020:
+Version 1.1.46 Removed dual-poke "reset" function because I found some mice were activating it! Fixed a bug in the Neopixel code for "Light tracking"
+
+July 20, 2020:
+Version 1.1.44 Log version number to the FED datafile
+
+July 17th, 2020:
+Version 1.1.42 Display version number on screen at startup
+
+July 17th, 2020:
+Version 1.1.41 speeds up pellet detection time after dispensing. Previously there was a 1s delay in detecting the pellet to reduce false positives if the mouse broke the beam with his nose. We found that some mice were taking the pellet within this 1s delay, causing FED to dispense a second pellet. This code no longer has a detection delay so multiple dispensing is reduced. 
+
+July 3, 2020:
+Uploaded version 1.1.3 fixing a bug affecting how very short retrieval times are logged in FED3
+
+June 13, 2020:
+Uploaded version 1.1.1, with minor battery display bug fixed
+
+June 2, 2020: 
+Uploaded version 1.00 of the code, to run on the OEPS FED device
+Uploaded verison 1.0 of the Set_clock code.  
+
+

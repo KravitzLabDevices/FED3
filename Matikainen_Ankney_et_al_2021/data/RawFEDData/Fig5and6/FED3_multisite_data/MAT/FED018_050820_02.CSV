@@ -1,4 +1,0 @@
-MM:DD:YYYY hh:mm:ss, Mouse, Battery_Voltage, MotorTurns, Session_Type, Event, Active_Poke, Left_Poke_Count, Right_Poke_Count, Pellet_Count, Retrieval_Time,,
-5/8/2020 9:17,18,4.07,0,1,Poke,Left,1,0,0,nan,,
-5/10/2020 9:13,18,3.91,1,1,Pellet,Left,1,0,1,11949,,I manually took the pellet and left poked to make sure the box was working 
-5/10/2020 9:13,18,3.89,0,1,Poke,Left,2,0,1,nan,,

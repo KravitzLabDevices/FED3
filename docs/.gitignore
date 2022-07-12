@@ -1,0 +1,21 @@
+# sphinx build folder
+docs/*
+make.bat
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+*.doctree
+*.pickle
+.vscode/*
+.idea
+*.iml
+
+# macOS specific
+.DS_Store

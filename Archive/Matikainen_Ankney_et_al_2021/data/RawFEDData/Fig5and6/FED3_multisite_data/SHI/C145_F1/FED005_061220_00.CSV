@@ -1,0 +1,13 @@
+MM:DD:YYYY hh:mm:ss, Device_Number, Battery_Voltage, Motor_Turns, Session_Type, Event, Active_Poke, Left_Poke_Count, Right_Poke_Count, Pellet_Count, Retrieval_Time
+6/12/2020 10:34:30,5,4.09,0,1,Poke,Left,1,0,0,nan
+6/12/2020 10:35:34,5,4.08,2,1,Pellet,Left,1,0,1,59
+6/12/2020 10:44:19,5,4.09,0,1,Poke,Left,2,0,1,nan
+6/12/2020 10:48:54,5,4.09,1,1,Pellet,Left,2,0,2,242
+6/12/2020 10:53:28,5,4.09,0,1,Poke,Left,2,1,2,nan
+6/12/2020 10:53:30,5,4.09,0,1,Poke,Left,2,2,2,nan
+6/12/2020 11:05:09,5,4.09,0,1,Poke,Left,2,3,2,nan
+6/12/2020 11:09:40,5,4.09,0,1,Poke,Left,2,4,2,nan
+6/12/2020 11:25:45,5,4.08,0,1,Poke,Left,2,5,2,nan
+6/12/2020 11:27:38,5,4.08,0,1,Poke,Left,2,6,2,nan
+6/12/2020 11:28:56,5,4.08,0,1,Poke,Left,3,6,2,nan
+6/12/2020 11:29:06,5,4.08,1,1,Pellet,Left,3,6,3,3

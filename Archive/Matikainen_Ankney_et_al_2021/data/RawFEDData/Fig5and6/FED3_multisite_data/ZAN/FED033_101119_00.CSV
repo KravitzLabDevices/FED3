@@ -1,0 +1,2 @@
+MM:DD:YYYY, hh:mm:ss, Device_Number, Battery_Voltage, Motor_Turns, FR_Ratio, Active_Poke, Left_Poke_Count, Right_Poke_Count, Pellet_Count, Retrieval_Time
+10/12/2019,10:08:16,33,3.77,1,1,Left,1,0,1,6

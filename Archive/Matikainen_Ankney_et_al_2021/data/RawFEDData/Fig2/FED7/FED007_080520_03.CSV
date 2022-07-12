@@ -1,0 +1,5 @@
+MM:DD:YYYY hh:mm:ss,FED_Version,Device_Number,Battery_Voltage,Motor_Turns,Session_Type,Event,Active_Poke,Left_Poke_Count,Right_Poke_Count,Pellet_Count,Retrieval_Time
+8/5/2020 16:26:10,1.1.45,7,4.14,0,FR3,Poke,Left,1,0,0,nan
+8/5/2020 16:26:12,1.1.45,7,4.14,0,FR3,Poke,Left,2,0,0,nan
+8/5/2020 16:26:13,1.1.45,7,4.14,0,FR3,Poke,Left,3,0,0,nan
+8/5/2020 16:26:21,1.1.45,7,4.14,1,FR3,Pellet,Left,3,0,1,6

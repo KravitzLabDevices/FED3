@@ -1,7 +1,0 @@
-MM:DD:YYYY hh:mm:ss,Device_Number,Battery_Voltage,Motor_Turns,Session_Type,Event,Active_Poke,Left_Poke_Count,Right_Poke_Count,Pellet_Count,Retrieval_Time
-7/15/2113 2:14:41,0,4.23,0,1,Poke,Left,1,0,0,nan
-7/15/2113 2:14:55,0,4.22,1,1,Pellet,Left,1,0,1,12
-7/15/2113 2:14:57,0,4.22,0,1,Poke,Left,2,0,1,nan
-7/15/2113 2:15:10,0,4.22,2,1,Pellet,Left,2,0,2,5
-7/15/2113 2:15:19,0,4.22,0,1,Poke,Left,3,0,2,nan
-7/15/2113 2:16:44,0,4.22,2,1,Pellet,Left,3,0,3,76
