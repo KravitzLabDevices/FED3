@@ -1,1 +1,1 @@
-These are five example FED3 data files, collected from mice performing an FR1 task for 12-24 hours
+This repository contains sample data from mice using FED3 for various tasks.  Files can be downloaded and processed with FED3VIZ to get an understanding of FED3 data and analyses.

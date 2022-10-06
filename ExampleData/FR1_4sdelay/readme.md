@@ -1,0 +1,1 @@
+These are example FED3 data files collected from mice performing an FR1 task with a 4s delay between nosepoke and pellet delivery.  This task is useful for synchronizing with brain recordings, to separate the nosepoke from the pellet retrievals to analyze brain activity around each.
