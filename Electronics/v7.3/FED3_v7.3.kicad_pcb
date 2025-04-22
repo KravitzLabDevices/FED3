@@ -4716,7 +4716,7 @@
 				)
 			)
 		)
-		(property "MPN" "150060VS75000"
+		(property "MPN" "LTST-C191KGKT"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5777,7 +5777,7 @@
 		(path "/f4901940-5078-48a6-adaa-a0748712c93b/a891a6a8-735c-4430-b703-9aba4f2d3d1c")
 		(sheetname "/controler stage/")
 		(sheetfile "controler stage.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 3.87 -1.33)
 			(end 3.87 6.41)
@@ -23380,7 +23380,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23636,7 +23636,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24164,7 +24164,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24420,7 +24420,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24676,7 +24676,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24932,7 +24932,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -25878,7 +25878,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -26134,7 +26134,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -26390,7 +26390,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -26646,7 +26646,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")

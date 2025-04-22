@@ -6776,7 +6776,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "150060VS75000"
+		(property "MPN" "LTST-C191KGKT"
 			(at 105.41 160.655 0)
 			(effects
 				(font
@@ -8730,9 +8730,9 @@
 		(at 78.74 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a891a6a8-735c-4430-b703-9aba4f2d3d1c")
 		(property "Reference" "J1"
 			(at 78.74 128.27 0)
