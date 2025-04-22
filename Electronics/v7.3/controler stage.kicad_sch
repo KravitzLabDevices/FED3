@@ -9260,7 +9260,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS030006"
+		(property "OEPSPN" "OEPS030038"
 			(at 115.57 161.29 0)
 			(effects
 				(font
@@ -9269,7 +9269,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "5975004407F"
+		(property "MPN" "VFHR1116P-4C82A-TR"
 			(at 115.57 161.29 0)
 			(effects
 				(font

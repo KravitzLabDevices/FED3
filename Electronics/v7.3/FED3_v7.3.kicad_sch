@@ -6649,7 +6649,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS030006"
+		(property "OEPSPN" "OEPS030038"
 			(at 113.03 92.71 0)
 			(effects
 				(font
@@ -6658,7 +6658,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "5975004407F"
+		(property "MPN" "VFHR1116P-4C82A-TR"
 			(at 113.03 92.71 0)
 			(effects
 				(font
@@ -7473,7 +7473,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS030006"
+		(property "OEPSPN" "OEPS030038"
 			(at 171.45 40.005 0)
 			(effects
 				(font
@@ -7482,7 +7482,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "5975004407F"
+		(property "MPN" "VFHR1116P-4C82A-TR"
 			(at 171.45 40.005 0)
 			(effects
 				(font

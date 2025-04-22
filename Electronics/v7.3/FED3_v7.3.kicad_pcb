@@ -4226,7 +4226,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS030006"
+		(property "OEPSPN" "OEPS030038"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4239,7 +4239,7 @@
 				)
 			)
 		)
-		(property "MPN" "5975004407F"
+		(property "MPN" "VFHR1116P-4C82A-TR"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12335,7 +12335,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS030006"
+		(property "OEPSPN" "OEPS030038"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12348,7 +12348,7 @@
 				)
 			)
 		)
-		(property "MPN" "5975004407F"
+		(property "MPN" "VFHR1116P-4C82A-TR"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21885,7 +21885,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS030006"
+		(property "OEPSPN" "OEPS030038"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21898,7 +21898,7 @@
 				)
 			)
 		)
-		(property "MPN" "5975004407F"
+		(property "MPN" "VFHR1116P-4C82A-TR"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
