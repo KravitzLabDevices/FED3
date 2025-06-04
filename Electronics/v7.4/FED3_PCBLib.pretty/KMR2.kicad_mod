@@ -1,0 +1,231 @@
+(footprint "KMR2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "68e36bc5-4202-4a51-aac1-741272d0723f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SPST_TACT-KMR2"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b9a27ac3-9a27-461e-9d4b-02619ef266a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "FED3_v7.3:KMR2"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e26b947e-45a0-41af-a449-836678c2d6da")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de243f82-b3c6-41b5-b78b-a15385d21969")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "35b9058a-b54a-4f46-9b6f-284f381e6959")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.1 -1.4)
+		(end 2.1 -1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c914f41e-5a96-4db4-9dde-1c0153c9704f")
+	)
+	(fp_line
+		(start -2.1 1.4)
+		(end -2.1 -1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "edbb59dc-c3e2-47f8-a268-380876317975")
+	)
+	(fp_line
+		(start -1.1 0.2)
+		(end -1.1 -0.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8918e313-1b88-4d01-ae50-e457a50ecd1c")
+	)
+	(fp_line
+		(start -0.5 -0.8)
+		(end 0.5 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8dc95846-c939-4a82-944b-397e0dfaf789")
+	)
+	(fp_line
+		(start 0.5 0.8)
+		(end -0.5 0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a80e2c0b-e9b9-43ff-ba8b-85a0f66136e0")
+	)
+	(fp_line
+		(start 1.1 -0.2)
+		(end 1.1 0.2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b730869-430c-4670-9b21-f96a3dd0187c")
+	)
+	(fp_line
+		(start 2.1 -1.4)
+		(end 2.1 1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d61854b3-e9d9-4ad1-aeca-58cd45fe2539")
+	)
+	(fp_line
+		(start 2.1 1.4)
+		(end -2.1 1.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dcc3a6c9-c6cc-4acd-a842-437a4c9a8420")
+	)
+	(fp_arc
+		(start -1.1 -0.2)
+		(mid -0.924263 -0.624264)
+		(end -0.499998 -0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b28ed68b-6eb8-4902-ad09-29ec0ed82062")
+	)
+	(fp_arc
+		(start -0.5 0.8)
+		(mid -0.924264 0.624263)
+		(end -1.1 0.199998)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3829d9f6-0b5e-4881-a436-9afc72a6a7e3")
+	)
+	(fp_arc
+		(start 0.5 -0.8)
+		(mid 0.924265 -0.624263)
+		(end 1.1 -0.199998)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6642bb1-ac93-4007-96b5-b8d155f80581")
+	)
+	(fp_arc
+		(start 1.1 0.2)
+		(mid 0.924263 0.624264)
+		(end 0.499998 0.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7acff53-e3dd-44b2-bce1-16f275082c84")
+	)
+	(pad "1" smd rect
+		(at 2 -0.8)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "1f0c40fb-6bc7-4019-8b07-3ac684008283")
+	)
+	(pad "2" smd rect
+		(at 2 0.8)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "c75b8ea9-5830-49c2-9cb8-37663c4cf31c")
+	)
+	(pad "3" smd rect
+		(at -2 -0.8)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "2a0399b1-e7cb-4adf-9710-4c5fb62a8d5e")
+	)
+	(pad "4" smd rect
+		(at -2 0.8)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "1b812c92-8c47-4e9a-b650-99eb3af026b4")
+	)
+	(model "${KIPRJMOD}/FED3_v7.3.pretty/KMR211NGLFS.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

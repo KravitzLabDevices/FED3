@@ -1,0 +1,148 @@
+(footprint "Buzzer"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 9.15 -0.35 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "19438d63-4910-49f5-8078-27df423939db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Buzzer"
+		(at 9.15 1.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a7355b4e-303c-4c05-addc-9be1904c373e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "674e2669-1185-4e3e-835a-e9ab78ed70a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51f28560-ddf5-46ef-813e-2ee8ef4a2450")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.7 -0.676)
+		(end -4.7 0.676)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "342ed246-a351-42e2-82c3-abb81f20b72d")
+	)
+	(fp_line
+		(start -3.998 -0.004)
+		(end -5.35 -0.004)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eac45a01-3d3b-4ede-ba19-f294a8e48338")
+	)
+	(fp_circle
+		(center -2.45 0)
+		(end -3.1 -0.85)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "991e62ce-86ad-4272-a3ea-5343588e9be9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.762812 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c8c5abd4-cad1-48dc-8048-056c3bf95bcd")
+	)
+	(fp_circle
+		(center 2.45 0)
+		(end 1.8 -0.85)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "725cad1e-643d-41c1-a9ca-1c23e7b28c61")
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.4746 0)
+		(size 1.524 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.2928932188)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "3c8b2606-8848-402d-89e3-922aa91dd3a4")
+	)
+	(pad "2" thru_hole roundrect
+		(at 2.4746 0)
+		(size 1.524 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.2928932188)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "2ec0cb11-e934-4a03-84cb-b1298d269158")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/FED3_PCBLib.pretty/9x12 Buzzer.step"
+		(offset
+			(xyz 0 -5.5 30.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)
