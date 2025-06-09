@@ -65,19 +65,15 @@
       ],
       "drc_exclusions": [
         [
-          "via_dangling|126350000|123800000|b8faf2e2-da25-44c6-98cc-3c4aa1260402|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "via_dangling|146850000|127350000|6d240028-6150-4e86-bef5-e2ea0726f006|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "via_dangling|193000000|108950000|4c94a671-f315-4cbb-80fb-613779ef0b8d|00000000-0000-0000-0000-000000000000",
+          "via_dangling|192150000|104100000|83940945-5a4f-4b52-a1d7-76e4eabea120|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "via_dangling|193550000|104800000|83940945-5a4f-4b52-a1d7-76e4eabea120|00000000-0000-0000-0000-000000000000",
+          "via_dangling|193000000|108950000|4c94a671-f315-4cbb-80fb-613779ef0b8d|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -763,7 +759,7 @@
           "group_by": true,
           "label": "MPN",
           "name": "MPN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -772,10 +768,10 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -799,7 +795,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -813,7 +809,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

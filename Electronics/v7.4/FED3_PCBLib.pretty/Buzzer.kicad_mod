@@ -134,15 +134,15 @@
 		(uuid "2ec0cb11-e934-4a03-84cb-b1298d269158")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/FED3_PCBLib.pretty/9x12 Buzzer.step"
+	(model "${KIPRJMOD}/FED3_PCBLib.pretty/Buzzer_TDK_pitch_5.igs"
 		(offset
-			(xyz 0 -5.5 30.5)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 -0 -0)
+			(xyz -90 -0 -90)
 		)
 	)
 )

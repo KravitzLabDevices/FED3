@@ -2760,7 +2760,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FED3 SymbLib:VUSB"
+		(symbol "FED3 SymbLib:V_Batt"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2781,7 +2781,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "VUSB"
+			(property "Value" "V_Batt"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -2807,7 +2807,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"VUSB\""
+			(property "Description" "Power symbol creates a global label with name \"V_Batt\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2825,7 +2825,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VUSB_0_1"
+			(symbol "V_Batt_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2863,7 +2863,7 @@
 					)
 				)
 			)
-			(symbol "VUSB_1_1"
+			(symbol "V_Batt_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -5158,7 +5158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "OPTICAL IR sensor (OEPS K01 022A)"
 			(at 46.99 142.24 0)
 			(effects
 				(font
@@ -5255,7 +5255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB Neopixel addressable 5mmx5mm (OEPS K01 012A)"
 			(at 187.96 74.93 0)
 			(effects
 				(font
@@ -5484,7 +5484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB Neopixel addressable 5mmx5mm (OEPS K01 012A)"
 			(at 264.16 74.93 0)
 			(effects
 				(font
@@ -5577,7 +5577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0402 1uF 25V ±10% X5R"
 			(at 130.81 35.56 0)
 			(effects
 				(font
@@ -5732,7 +5732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Buzzer, polarized"
+		(property "Description" "BUZZER PIEZO 3V 12.2MM (OEPS K01 014)"
 			(at 91.44 180.34 0)
 			(effects
 				(font
@@ -5956,7 +5956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 1kΩ ±1% 0.100W"
 			(at 52.07 121.92 0)
 			(effects
 				(font
@@ -6061,74 +6061,6 @@
 			(project "FED3_v7.3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/91f92fff-cc86-4ce2-a671-c31760f8020c"
 					(reference "#+3V010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FED3 SymbLib:VUSB")
-		(at 35.56 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "443bdf6b-9e6a-4141-8026-97f070db5697")
-		(property "Reference" "#PWR08"
-			(at 35.56 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "VUSB"
-			(at 38.1 22.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VUSB\""
-			(at 35.56 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0faebd09-8b53-458a-9ff2-23ee07b62b98")
-		)
-		(instances
-			(project "FED3_v7.3"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/91f92fff-cc86-4ce2-a671-c31760f8020c"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6313,7 +6245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0402 1uF 25V ±10% X5R"
 			(at 168.91 35.56 0)
 			(effects
 				(font
@@ -6401,7 +6333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB Neopixel addressable 5mmx5mm (OEPS K01 012A)"
 			(at 238.76 74.93 0)
 			(effects
 				(font
@@ -6586,6 +6518,73 @@
 		)
 	)
 	(symbol
+		(lib_id "FED3 SymbLib:V_Batt")
+		(at 35.56 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68e2170a-bcea-4f47-a3c2-190a9524ed2b")
+		(property "Reference" "#PWR07"
+			(at 35.56 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBat"
+			(at 33.782 20.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"V_Batt\""
+			(at 35.56 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "829e768c-5524-46ec-a99e-68dca31b8485")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/91f92fff-cc86-4ce2-a671-c31760f8020c"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 146.05 121.92 0)
 		(mirror x)
@@ -6632,7 +6631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 1kΩ ±1% 0.100W"
 			(at 146.05 121.92 0)
 			(effects
 				(font
@@ -6719,7 +6718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0402 1uF 25V ±10% X5R"
 			(at 161.29 35.56 0)
 			(effects
 				(font
@@ -6943,7 +6942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "OPTICAL IR sensor (OEPS K01 022A)"
 			(at 91.44 142.24 0)
 			(effects
 				(font
@@ -7109,7 +7108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 1kΩ ±1% 0.100W"
 			(at 96.52 121.92 0)
 			(effects
 				(font
@@ -7266,7 +7265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "OPTICAL IR sensor (OEPS K01 022A)"
 			(at 140.97 142.24 0)
 			(effects
 				(font
@@ -7362,7 +7361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0402 1uF 25V ±10% X5R"
 			(at 138.43 35.56 0)
 			(effects
 				(font
@@ -7450,7 +7449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB Neopixel addressable 5mmx5mm (OEPS K01 012A)"
 			(at 86.36 74.93 0)
 			(effects
 				(font
@@ -7680,7 +7679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB Neopixel addressable 5mmx5mm (OEPS K01 012A)"
 			(at 238.76 114.3 0)
 			(effects
 				(font
@@ -8244,7 +8243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB Neopixel addressable 5mmx5mm (OEPS K01 012A)"
 			(at 137.16 74.93 0)
 			(effects
 				(font
@@ -8337,7 +8336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 34kΩ ±0.1% 0.063W"
 			(at 66.04 49.53 0)
 			(effects
 				(font
@@ -8628,7 +8627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB Neopixel addressable 5mmx5mm (OEPS K01 012A)"
 			(at 111.76 74.93 0)
 			(effects
 				(font
@@ -8721,7 +8720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB Neopixel addressable 5mmx5mm (OEPS K01 012A)"
 			(at 264.16 114.3 0)
 			(effects
 				(font
@@ -8882,7 +8881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0402 1uF 25V ±10% X5R"
 			(at 153.67 35.56 0)
 			(effects
 				(font
@@ -8970,7 +8969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB Neopixel addressable 5mmx5mm (OEPS K01 012A)"
 			(at 162.56 74.93 0)
 			(effects
 				(font
@@ -9064,7 +9063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3.5MM JACK STEREO 90º"
 			(at 46.99 180.34 0)
 			(effects
 				(font
@@ -9154,7 +9153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "SMD CER 0402 1uF 25V ±10% X5R"
 			(at 146.05 35.56 0)
 			(effects
 				(font
@@ -9375,7 +9374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DC DC CONVERTER Boost/Inverter 2output ±40V 1.3A"
 			(at 50.8 39.37 0)
 			(effects
 				(font
@@ -9539,7 +9538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 330Ω ±1% 0.063W"
 			(at 67.31 77.47 0)
 			(effects
 				(font
@@ -9694,7 +9693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB Neopixel addressable 5mmx5mm (OEPS K01 012A)"
 			(at 213.36 74.93 0)
 			(effects
 				(font

@@ -4307,7 +4307,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 100.33) (xy 138.43 100.33)
+			(xy 120.65 100.33) (xy 135.89 100.33)
 		)
 		(stroke
 			(width 0.1524)
@@ -5487,7 +5487,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 49.53) (xy 134.62 49.53)
+			(xy 120.65 49.53) (xy 135.89 49.53)
 		)
 		(stroke
 			(width 0.1524)
@@ -5596,7 +5596,7 @@
 		(uuid "6503647c-90c6-42b0-9ff9-68373223f762")
 	)
 	(label "AREF"
-		(at 134.62 49.53 180)
+		(at 135.89 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5606,12 +5606,12 @@
 		(uuid "6bfbfc1c-e807-4bcd-9527-3bc67a88a67e")
 	)
 	(label "~{RESET}"
-		(at 34.29 44.45 180)
+		(at 34.29 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "6d000659-ecb1-4513-85e4-702303f37c94")
 	)
@@ -5646,7 +5646,7 @@
 		(uuid "94416e89-e724-441b-8e9c-5f703e128362")
 	)
 	(label "D1"
-		(at 132.08 69.85 180)
+		(at 135.89 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5706,7 +5706,7 @@
 		(uuid "a5f37b94-9eb3-45af-acb2-e7415938f643")
 	)
 	(label "D0"
-		(at 132.08 72.39 180)
+		(at 135.89 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5794,6 +5794,16 @@
 			(justify right bottom)
 		)
 		(uuid "d1c2db23-3471-4fa0-8884-ac52e04020be")
+	)
+	(label "D7"
+		(at 135.89 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d60416e2-6da1-44f5-a387-4da25b31dc28")
 	)
 	(label "D12"
 		(at 50.8 167.64 0)
@@ -6087,28 +6097,6 @@
 			)
 		)
 	)
-	(global_label "D7"
-		(shape input)
-		(at 138.43 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "95a6673f-03d8-405f-9022-c35f11c2c560")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.7851 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "D6"
 		(shape input)
 		(at 138.43 97.79 0)
@@ -6244,7 +6232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two pin crystal"
+		(property "Description" "Crystal 32768 KHz ±50ppm 12.5pF 90kOhms"
 			(at 130.81 39.37 0)
 			(effects
 				(font
@@ -6331,7 +6319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD CER 0402 22pF 50V ±5% C0G/NP0"
 			(at 135.89 29.21 0)
 			(effects
 				(font
@@ -7064,7 +7052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "32.768 kHz ±10ppm Crystal 12.5pF 50 kOhms"
+		(property "Description" "Crystal 32.768 kHz ±10ppm 12.5pF 50 kOhms (OEPS K01 010)"
 			(at 257.175 138.43 0)
 			(effects
 				(font
@@ -7157,7 +7145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD CER 0402 1uF 25V ±10% X5R"
 			(at 41.91 63.5 0)
 			(effects
 				(font
@@ -7217,7 +7205,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "68R"
+		(property "Value" "10k"
 			(at 118.618 172.974 0)
 			(effects
 				(font
@@ -7245,7 +7233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 10kΩ ±1% 0.100W"
 			(at 116.84 170.18 0)
 			(effects
 				(font
@@ -7254,7 +7242,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020032"
+		(property "OEPSPN" "OEPS020013"
 			(at 116.84 170.18 0)
 			(effects
 				(font
@@ -7263,7 +7251,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RCS040268R0FKED"
+		(property "MPN" "ERJ-2RKF1002X"
 			(at 116.84 170.18 0)
 			(effects
 				(font
@@ -7332,7 +7320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD CER 0402 22pF 50V ±5% C0G/NP0"
 			(at 125.73 29.21 0)
 			(effects
 				(font
@@ -7447,7 +7435,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7471,7 +7459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "FED3_PCBLib:1X04"
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
 			(at 73.66 165.1 0)
 			(effects
 				(font
@@ -7823,7 +7811,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "68R"
+		(property "Value" "2k2"
 			(at 107.696 173.736 0)
 			(effects
 				(font
@@ -7851,7 +7839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 2.2kΩ ±1% 0.100W"
 			(at 105.41 171.45 0)
 			(effects
 				(font
@@ -7860,7 +7848,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020032"
+		(property "OEPSPN" "OEPS020174"
 			(at 105.41 171.45 0)
 			(effects
 				(font
@@ -7869,7 +7857,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RCS040268R0FKED"
+		(property "MPN" "ERJ-2RKF2201X"
 			(at 105.41 171.45 0)
 			(effects
 				(font
@@ -8006,7 +7994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
 			(at 149.86 161.29 0)
 			(effects
 				(font
@@ -8418,7 +8406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 4.7kΩ ±1% 0.100W"
 			(at 207.01 139.7 0)
 			(effects
 				(font
@@ -8506,7 +8494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "• CR1220 SMT - Digikey: 3001K-ND\n• CD2032 BAT-HLD-001 - Digikey: BAT-HLD-001-ND"
+		(property "Description" "CR1220 Battery Holders; 12mm (OEPS K01 013)"
 			(at 256.54 148.59 0)
 			(effects
 				(font
@@ -8598,7 +8586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "HEADER 2.54MM straight 2x3POS"
 			(at 78.74 135.89 0)
 			(effects
 				(font
@@ -8765,7 +8753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN MICRO SD CARD R/A"
 			(at 228.6 53.34 0)
 			(effects
 				(font
@@ -9127,7 +9115,7 @@
 	)
 	(symbol
 		(lib_id "FED3 SymbLib:LCD_SCREEN")
-		(at 27.94 154.94 0)
+		(at 24.13 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9135,7 +9123,7 @@
 		(dnp no)
 		(uuid "cae5b97a-59ee-44b2-b240-f7afc5b7cd81")
 		(property "Reference" "U4"
-			(at 18.796 136.906 0)
+			(at 14.986 154.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9144,7 +9132,7 @@
 			)
 		)
 		(property "Value" "Adafruit LCD Screen"
-			(at 18.796 139.446 0)
+			(at 14.986 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9153,7 +9141,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 154.94 0)
+			(at 24.13 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9162,7 +9150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 154.94 0)
+			(at 24.13 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9171,7 +9159,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 154.94 0)
+			(at 24.13 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9180,7 +9168,7 @@
 			)
 		)
 		(property "OEPSPN" "TBD"
-			(at 21.082 171.958 0)
+			(at 17.272 189.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9189,7 +9177,7 @@
 			)
 		)
 		(property "MPN" "3502"
-			(at 27.94 154.94 0)
+			(at 24.13 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9253,7 +9241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 1kΩ ±1% 0.100W"
 			(at 226.06 118.11 0)
 			(effects
 				(font
@@ -9410,7 +9398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RTC CLOCK/CALENDAR I2C"
 			(at 234.95 140.97 0)
 			(effects
 				(font
@@ -9718,7 +9706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD CER 0402 1uF 25V ±10% X5R"
 			(at 168.91 163.83 0)
 			(effects
 				(font
@@ -9806,7 +9794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 4.7kΩ ±1% 0.100W"
 			(at 210.185 139.7 0)
 			(effects
 				(font
@@ -9893,7 +9881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC MCU 32BIT 256KB FLASH 48QFN"
 			(at 69.85 77.47 0)
 			(effects
 				(font

@@ -970,177 +970,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FED3 SymbLib:DIODE-SCHOTTKYSOD-123"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 -2.5 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-123"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DIODE-SCHOTTKYSOD-123_1_0"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.778 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "FED3 SymbLib:MCP73831/2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3879,7 +3708,7 @@
 		(at 46.99 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6cbcef81-201a-4faf-a0c1-d7b7a80a2485")
+		(uuid "63bb2cce-2309-4c81-957f-5c9d914666fe")
 	)
 	(junction
 		(at 91.44 83.82)
@@ -3916,12 +3745,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb9e8863-6b2f-4c0c-9797-a763c2ce6709")
-	)
-	(junction
-		(at 54.61 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d563efae-9e04-45e0-836c-0f11dfb21892")
 	)
 	(junction
 		(at 227.33 144.78)
@@ -4014,16 +3837,6 @@
 			(type solid)
 		)
 		(uuid "0c50d1ce-f9ad-4936-a799-b284e89cd929")
-	)
-	(wire
-		(pts
-			(xy 54.61 71.12) (xy 54.61 73.66)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0f8a0ded-02c8-4f83-82b0-29b4d87b1d40")
 	)
 	(wire
 		(pts
@@ -4277,7 +4090,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 123.19) (xy 238.76 124.46)
+			(xy 238.76 121.92) (xy 238.76 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4857,16 +4670,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 71.12) (xy 46.99 83.82)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a5621c26-231a-4466-9227-806498328965")
-	)
-	(wire
-		(pts
 			(xy 227.33 101.6) (xy 224.79 101.6)
 		)
 		(stroke
@@ -5067,7 +4870,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 78.74) (xy 54.61 83.82)
+			(xy 46.99 78.74) (xy 46.99 83.82)
 		)
 		(stroke
 			(width 0.1524)
@@ -5157,7 +4960,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 83.82) (xy 54.61 83.82)
+			(xy 46.99 83.82) (xy 55.88 83.82)
 		)
 		(stroke
 			(width 0.1524)
@@ -5234,16 +5037,6 @@
 			(type solid)
 		)
 		(uuid "f9e2c0bc-92e0-4438-9845-57f9425b06b0")
-	)
-	(wire
-		(pts
-			(xy 54.61 83.82) (xy 55.88 83.82)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "fa6ee137-babb-4f54-a279-2810355fadb1")
 	)
 	(wire
 		(pts
@@ -5763,7 +5556,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k 0.1%"
 			(at 60.96 90.1699 0)
 			(effects
 				(font
@@ -5791,7 +5584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 100kΩ ±0.1% 0.063W"
 			(at 58.42 88.9 0)
 			(effects
 				(font
@@ -5800,7 +5593,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020019"
+		(property "OEPSPN" "OEPS020175"
 			(at 58.42 88.9 0)
 			(effects
 				(font
@@ -5809,7 +5602,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF1003X"
+		(property "MPN" "RG1005P-104-B-T5"
 			(at 58.42 88.9 0)
 			(effects
 				(font
@@ -6193,94 +5986,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:DIODE-SCHOTTKYSOD-123")
-		(at 54.61 76.2 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13b6b90c-b628-44fb-86fc-ae69b6dddc15")
-		(property "Reference" "D2"
-			(at 57.15 75.1839 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SM5817PL"
-			(at 57.15 77.7239 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 54.61 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky DC Reverse (Vr) (Max)  20 V  Average Rectified (Io)  1A"
-			(at 54.61 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OEPSPN" "OEPS030030"
-			(at 54.61 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SM5817PL-TP"
-			(at 54.61 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4709824b-7723-48f7-a55a-1992ab975548")
-		)
-		(pin "1"
-			(uuid "92269988-ce0d-4d74-bae6-ebc2706d4136")
-		)
-		(instances
-			(project "FED3_v7.3"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 245.745 159.385 0)
 		(mirror y)
@@ -6614,7 +6319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LDO 3.3V 300mA"
 			(at 78.74 86.36 0)
 			(effects
 				(font
@@ -6778,7 +6483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD CER 0402 1uF 25V ±10% X5R"
 			(at 99.06 90.17 0)
 			(effects
 				(font
@@ -6866,7 +6571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 1kΩ ±1% 0.100W"
 			(at 213.36 43.18 0)
 			(effects
 				(font
@@ -6913,9 +6618,9 @@
 		(at 113.03 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2cc4b0ce-5ae5-4a3e-b398-20a2d99a3965")
 		(property "Reference" "L2"
@@ -6927,7 +6632,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "DNP"
 			(at 116.84 95.5674 90)
 			(effects
 				(font
@@ -6963,7 +6668,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS030006"
+		(property "OEPSPN" "n.a."
 			(at 113.03 92.71 0)
 			(effects
 				(font
@@ -6972,7 +6677,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "5975004407F"
+		(property "MPN" "n.a."
 			(at 113.03 92.71 0)
 			(effects
 				(font
@@ -7269,7 +6974,7 @@
 		(at 40.64 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "47ef59bc-5a10-4747-8d85-95cc23ec3515")
@@ -7445,7 +7150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 4.7kΩ ±1% 0.100W"
 			(at 170.18 129.54 0)
 			(effects
 				(font
@@ -7732,7 +7437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "BATT CNTL LI-ION 1CEL"
 			(at 194.31 43.18 0)
 			(effects
 				(font
@@ -8028,73 +7733,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:VUSB")
-		(at 227.33 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "697bc565-a223-42a6-8f9d-91f3a9b5c7ff")
-		(property "Reference" "#PWR7"
-			(at 227.33 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "VUSB"
-			(at 224.79 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VUSB\""
-			(at 227.33 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "393711ce-5180-4beb-8ca7-e44662d77d5d")
-		)
-		(instances
-			(project "FED3_v7.3"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 209.55 53.34 0)
 		(unit 1)
@@ -8306,7 +7944,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7f2b9edd-3062-4899-a974-ba9350986f41")
 		(property "Reference" "C11"
 			(at 49.53 89.5412 0)
@@ -8432,7 +8069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SWITCH SLIDE SPDT 0.3A 5V (OEPS K01 017)"
 			(at 102.87 40.64 0)
 			(effects
 				(font
@@ -8697,9 +8334,9 @@
 		(at 113.03 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a0ae91ff-6d39-4824-bddc-f4c2ea04cfcc")
 		(property "Reference" "R19"
@@ -8711,7 +8348,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68R"
+		(property "Value" "DNP"
 			(at 115.57 85.0899 0)
 			(effects
 				(font
@@ -8748,7 +8385,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020032"
+		(property "OEPSPN" "n.a."
 			(at 113.03 83.82 0)
 			(effects
 				(font
@@ -8757,7 +8394,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RCS040268R0FKED"
+		(property "MPN" "n.a."
 			(at 113.03 83.82 0)
 			(effects
 				(font
@@ -8776,6 +8413,73 @@
 			(project "FED3_v7.3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FED3 SymbLib:V_Batt")
+		(at 238.76 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9dac08b-abed-403f-8efe-d77816ecd05f")
+		(property "Reference" "#PWR01"
+			(at 238.76 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBat"
+			(at 237.236 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"V_Batt\""
+			(at 238.76 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ecce70b-bedb-4f6d-8311-f072bfc66e53")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8827,7 +8531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 1kΩ ±1% 0.100W"
 			(at 222.25 48.26 0)
 			(effects
 				(font
@@ -9002,7 +8706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOTOR DRIVER 2.7V-5.5V (OEPS K01 002)"
 			(at 204.47 124.46 0)
 			(effects
 				(font
@@ -9129,7 +8833,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k 0.1%"
 			(at 242.57 39.3699 0)
 			(effects
 				(font
@@ -9157,7 +8861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 100kΩ ±0.1% 0.063W"
 			(at 240.03 38.1 0)
 			(effects
 				(font
@@ -9166,7 +8870,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020019"
+		(property "OEPSPN" "OEPS020175"
 			(at 240.03 38.1 0)
 			(effects
 				(font
@@ -9175,7 +8879,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF1003X"
+		(property "MPN" "RG1005P-104-B-T5"
 			(at 240.03 38.1 0)
 			(effects
 				(font
@@ -9194,6 +8898,73 @@
 			(project "FED3_v7.3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FED3 SymbLib:V_Batt")
+		(at 227.33 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcacdaea-8d13-433b-beb7-2232acaa7e77")
+		(property "Reference" "#PWR06"
+			(at 227.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBat"
+			(at 225.806 81.788 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"V_Batt\""
+			(at 227.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06d86036-a6bd-4954-9093-04549cd3933e")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -9446,7 +9217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 1kΩ ±1% 0.100W"
 			(at 176.53 45.72 0)
 			(effects
 				(font
@@ -9483,73 +9254,6 @@
 			(project "FED3_v7.3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FED3 SymbLib:VUSB")
-		(at 46.99 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cac5048a-7d3d-459c-9ca7-22f2491ff1de")
-		(property "Reference" "#PWR1"
-			(at 46.99 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "VUSB"
-			(at 45.212 67.056 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VUSB\""
-			(at 46.99 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1602060c-ebf1-44db-87cb-d56f2fc83a7d")
-		)
-		(instances
-			(project "FED3_v7.3"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR1")
 					(unit 1)
 				)
 			)
@@ -9708,7 +9412,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k 0.1%"
 			(at 242.57 50.7999 0)
 			(effects
 				(font
@@ -9736,7 +9440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 100kΩ ±0.1% 0.063W"
 			(at 240.03 49.53 0)
 			(effects
 				(font
@@ -9745,7 +9449,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020019"
+		(property "OEPSPN" "OEPS020175"
 			(at 240.03 49.53 0)
 			(effects
 				(font
@@ -9754,7 +9458,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF1003X"
+		(property "MPN" "RG1005P-104-B-T5"
 			(at 240.03 49.53 0)
 			(effects
 				(font
@@ -9783,9 +9487,9 @@
 		(at 170.18 115.57 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dc09f89d-a56d-457c-bb13-f9356019f792")
 		(property "Reference" "R7"
@@ -9929,73 +9633,6 @@
 			(project ""
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FED3 SymbLib:VUSB")
-		(at 238.76 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e9a6720f-0867-4e13-b0df-14c6de947a99")
-		(property "Reference" "#PWR6"
-			(at 238.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "VUSB"
-			(at 237.236 119.126 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VUSB\""
-			(at 238.76 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae446200-873e-4680-b63d-eb9b41b319ee")
-		)
-		(instances
-			(project "FED3_v7.3"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR6")
 					(unit 1)
 				)
 			)
@@ -10233,7 +9870,7 @@
 	)
 	(symbol
 		(lib_id "FED3 SymbLib:V_Batt")
-		(at 54.61 71.12 0)
+		(at 46.99 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10241,7 +9878,7 @@
 		(dnp no)
 		(uuid "f23b2278-b858-47d2-a46a-0b651a8903b6")
 		(property "Reference" "#PWR04"
-			(at 54.61 74.93 0)
+			(at 46.99 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10251,7 +9888,7 @@
 			)
 		)
 		(property "Value" "VBat"
-			(at 52.832 67.056 0)
+			(at 45.212 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10260,7 +9897,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 71.12 0)
+			(at 46.99 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10269,7 +9906,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 71.12 0)
+			(at 46.99 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10278,7 +9915,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"V_Batt\""
-			(at 54.61 71.12 0)
+			(at 46.99 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
