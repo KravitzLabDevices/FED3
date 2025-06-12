@@ -3579,7 +3579,7 @@
 	)
 	(text "5.0K  = 200mA"
 		(exclude_from_sim no)
-		(at 207.645 34.29 0)
+		(at 207.772 32.385 0)
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -3611,6 +3611,17 @@
 		)
 		(uuid "b71eeb16-4bf1-4f78-8ddc-0e92d99eae93")
 	)
+	(text "2.2K  = 455mA"
+		(exclude_from_sim no)
+		(at 207.772 34.29 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+			)
+			(justify left bottom)
+		)
+		(uuid "bcc511a9-b65d-4905-8c5e-3d303413fc02")
+	)
 	(text "1.0K  = 1000mA"
 		(exclude_from_sim no)
 		(at 207.645 38.1 0)
@@ -3624,7 +3635,7 @@
 	)
 	(text "10K  = 100mA"
 		(exclude_from_sim no)
-		(at 207.645 32.385 0)
+		(at 207.772 30.48 0)
 		(effects
 			(font
 				(size 1.2 1.2)
@@ -4260,7 +4271,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 44.45) (xy 222.25 43.18)
+			(xy 222.25 43.18) (xy 222.25 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4687,16 +4698,6 @@
 			(type solid)
 		)
 		(uuid "a9ebe694-39b7-4da7-812c-8d375a6d6952")
-	)
-	(wire
-		(pts
-			(xy 222.25 52.07) (xy 222.25 53.34)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "adcf9c7e-5d7d-42d7-a53c-fd45b6916e58")
 	)
 	(wire
 		(pts
@@ -6544,7 +6545,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k2"
 			(at 211.582 48.006 90)
 			(effects
 				(font
@@ -6571,7 +6572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 1kΩ ±1% 0.100W"
+		(property "Description" "SMD 0402 2.2kΩ ±1% 0.100W"
 			(at 213.36 43.18 0)
 			(effects
 				(font
@@ -6580,7 +6581,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020006"
+		(property "OEPSPN" "OEPS020174"
 			(at 213.36 43.18 0)
 			(effects
 				(font
@@ -6589,7 +6590,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-2RKF1001X"
+		(property "MPN" "ERJ-2RKF2201X"
 			(at 213.36 43.18 0)
 			(effects
 				(font
@@ -8480,94 +8481,6 @@
 			(project "FED3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 222.25 48.26 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ad7c0b26-88d0-437d-b446-168e437e93cc")
-		(property "Reference" "R20"
-			(at 220.726 47.498 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k"
-			(at 220.726 50.038 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 222.25 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0402 1kΩ ±1% 0.100W"
-			(at 222.25 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OEPSPN" "OEPS020006"
-			(at 222.25 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ERJ-2RKF1001X"
-			(at 222.25 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae3f5dc4-17ea-491a-9106-e56e64f85652")
-		)
-		(pin "2"
-			(uuid "ca71e134-55c1-4164-a076-346001882467")
-		)
-		(instances
-			(project "FED3_v7.3"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "R20")
 					(unit 1)
 				)
 			)
