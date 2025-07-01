@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "3d27fb3a-a05b-44d4-a515-cc391a53007d")
 	(paper "A4")
+	(title_block
+		(title "FED3 Control Board")
+		(rev "7.4")
+		(company "Kravitz Lab")
+		(comment 1 "Open Ephys, Inc.")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers

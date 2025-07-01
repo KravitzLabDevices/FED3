@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "2ba63f12-2fcd-4471-9636-2762cde37de8")
 	(paper "A4")
+	(title_block
+		(title "FED3 Control Board")
+		(rev "7.4")
+		(company "Kravitz Lab")
+		(comment 1 "Open Ephys, Inc.")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -10133,7 +10139,7 @@
 			(color 202 239 212 1.0000)
 		)
 		(uuid "f4901940-5078-48a6-adaa-a0748712c93b")
-		(property "Sheetname" "controler stage"
+		(property "Sheetname" "Controller Stage"
 			(at 26.67 139.1314 0)
 			(effects
 				(font
@@ -10167,4 +10173,25 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "generic.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WDdCX0VAPbdXiHwth4UjMf84wQpaKiddXNyw2vE3ASpJOKm/UZkMyvPewFVAE4AWAA71P+6
+				E/V/PHhP6hl7NhdyvnNBg6Vy+uc/TLoZgwYrqd8THr90vwAABASi6O845VVxKvxdDihWvvVz++br
+				MViUUkSd1bPG476jAiAgGEMkzsd5OFQI1UctVrTy7u1E2OrTmkrby9ifu+L1uW/e2nvQp88q5Gmw
+				8ws+fr+f9y+L9Oa88s83DLU3p1VMWf3Lt9ZppVX9shLSUuq/uR+rym/I5fdulhPePlB3nqiaJruM
+				7sWyKo9QmUhQSqlo2yXTcBxYQ4ugCHXaOS+p8GvKeqUyDObgZJlt01AEZ9znHHtv076fr+emDv5R
+				BLLVKWaq1mfXdZMiCoDPukPdBgGBofrisvaiijoRFEPJJqbMiaFuzLqhYJZJpTHlApNlkM2yEDIx
+				wSiZRHvgh4dB7rEbqteFnDSTYDQM+BhzSVrph/3v/WyDQ2rwaZU/F27d8X1FznLJLFiAhKDhRMcY
+				khEJkiRJOnBEpOSqG67IIUSIB6wVkypOj83iBj0zp4LL2kMMw+lEgMAIPplQr3guKCdlw/SfU9Pm
+				wv5Qjf2c0i+iukyGwJWg6H+jq3g9lh1bbaelmbDHUSOcHe0f4IqIU3pYnNopN2UGuqm6tUzbD0DL
+				A846XZ/tXUnW1CdqEKGhzI4PDvNZEWdNQVTqjKoxCJiOkLlyPnE2aN0Mgntwtl4Il0TKJW3CO+mz
+				Z3UY05BTT9QUnWnIY2O5jqbO0VBDfwAQ0J2lPShW8OIwbtD7c16HHQWSRlikdRdv3bO2EHlrLTcN
+				okDmqiZIAfyy8oU9FMxL3Rl0kbp+k4D31UmB0+QSWL73QeUaK7tJbNu8DHaE+JnfMeyjQJuerxNn
+				/RsMH2E/mWuAPwa9Cg==|
+			)
+			(checksum "29ED9DE70340A48902A32D9A43F096A1")
+		)
+	)
 )

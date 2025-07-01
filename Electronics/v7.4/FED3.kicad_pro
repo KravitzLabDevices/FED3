@@ -839,7 +839,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "DrawingSheet.kicad_wks",
+    "page_layout_descr_file": "kicad-embed://generic.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -858,7 +858,7 @@
     ],
     [
       "f4901940-5078-48a6-adaa-a0748712c93b",
-      "controler stage"
+      "Controller Stage"
     ],
     [
       "91f92fff-cc86-4ce2-a671-c31760f8020c",
