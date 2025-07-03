@@ -533,7 +533,7 @@
       "idf": "",
       "netlist": "",
       "plot": "Gerbers&Drills/",
-      "pos_files": "",
+      "pos_files": "PickPlace&BOM/",
       "specctra_dsn": "",
       "step": "FED3_v7.3.step",
       "svg": "",
@@ -543,7 +543,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "FED3_v7.3 BOM.csv",
+    "bom_export_filename": "PickPlace&BOM\\FED3 BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -801,7 +801,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
@@ -809,7 +809,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "OEPSPN"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

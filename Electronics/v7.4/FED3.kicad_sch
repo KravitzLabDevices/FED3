@@ -6625,7 +6625,7 @@
 		(at 113.03 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -8094,7 +8094,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SSSS811101 "
+		(property "MPN" "SSSS811101"
 			(at 102.87 40.64 0)
 			(effects
 				(font
@@ -8341,7 +8341,7 @@
 		(at 113.03 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -8643,7 +8643,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TB6612FNG,C,8,EL "
+		(property "MPN" "TB6612FNG,C,8,EL"
 			(at 204.47 124.46 0)
 			(effects
 				(font
@@ -9406,7 +9406,7 @@
 		(at 170.18 115.57 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -9628,7 +9628,7 @@
 		(at 251.46 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ea0f59f8-c804-4c5e-abb2-f47d91beb7af")

@@ -5279,7 +5279,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 187.96 74.93 0)
 			(effects
 				(font
@@ -5508,7 +5508,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 264.16 74.93 0)
 			(effects
 				(font
@@ -6357,7 +6357,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 238.76 74.93 0)
 			(effects
 				(font
@@ -7473,7 +7473,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 86.36 74.93 0)
 			(effects
 				(font
@@ -7703,7 +7703,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 238.76 114.3 0)
 			(effects
 				(font
@@ -8267,7 +8267,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 137.16 74.93 0)
 			(effects
 				(font
@@ -8651,7 +8651,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 111.76 74.93 0)
 			(effects
 				(font
@@ -8744,7 +8744,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 264.16 114.3 0)
 			(effects
 				(font
@@ -8993,7 +8993,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 162.56 74.93 0)
 			(effects
 				(font
@@ -9380,7 +9380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DC DC CONVERTER Boost/Inverter 2output ±40V 1.3A"
+		(property "Description" "BUFFER NON-INVERT 1CH 3-STATE"
 			(at 50.8 39.37 0)
 			(effects
 				(font
@@ -9717,7 +9717,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SK6812RGBW-BW"
+		(property "MPN" "XT1511RGBW-BW"
 			(at 213.36 74.93 0)
 			(effects
 				(font
