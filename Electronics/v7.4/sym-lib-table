@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "FED3 SymbLib")(type "KiCad")(uri "${KIPRJMOD}/FED3 SymbLib.kicad_sym")(options "")(descr ""))
+)

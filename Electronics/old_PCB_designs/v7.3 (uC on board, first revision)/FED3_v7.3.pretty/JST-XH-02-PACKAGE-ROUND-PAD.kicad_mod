@@ -1,0 +1,194 @@
+(footprint "JST-XH-02-PACKAGE-ROUND-PAD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "JST XH Connector Round Pads (Package)\n\nWire to board connector.  Pitch: 2,54 mm, (0.100\")\n\nNumber of pins: 2  Created by Rembrandt Electronics\n\nwww.rembrandtelectronics.com")
+	(property "Reference" "REF**"
+		(at -4.056 -3.4666 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b2c7acf3-4548-4456-bafc-96d09c51e4e8")
+		(effects
+			(font
+				(size 0.77724 0.77724)
+				(thickness 0.13716)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "B2B-PH-K-S(LF)(SN)"
+		(at -3.3025 -3.8925 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ddca4c83-4ce5-4e97-9140-e8303d28b0e4")
+		(effects
+			(font
+				(size 0.92456 0.92456)
+				(thickness 0.09144)
+			)
+			(justify right top)
+		)
+	)
+	(property "Footprint" "FED3_v7.3:JST-XH-02-PACKAGE-ROUND-PAD"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c139356f-9afe-4fee-ba63-18d471f8456d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed944812-8024-409e-8363-df4fe1f759b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3a41831-3991-4db3-8dc4-388eb4a3ffb4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -3.7 -3.3925)
+		(end -3.7 2.3575)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "97631682-4f7a-40b9-b611-f00628340444")
+	)
+	(fp_line
+		(start -3.7 2.3575)
+		(end 3.7 2.3575)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "82817607-8b4d-4571-9c35-1886a73968c1")
+	)
+	(fp_line
+		(start -1.3 1.8)
+		(end 1.3 1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "81f9bb67-16b3-4c21-8087-677ad72ced55")
+	)
+	(fp_line
+		(start -1.3 2.3)
+		(end -1.3 1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "827fa65c-27b3-4e30-ac30-381323a41221")
+	)
+	(fp_line
+		(start 1.3 2.3)
+		(end 1.3 1.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a669418a-d1d4-4d6d-8f8f-5089ba68c82b")
+	)
+	(fp_line
+		(start 3.7 -3.3925)
+		(end -3.7 -3.3925)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b51adce-e91c-45a8-b703-cabe35d4bc49")
+	)
+	(fp_line
+		(start 3.7 2.3575)
+		(end 3.7 -3.3925)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68c20722-8819-48e0-a3a7-23652d884c40")
+	)
+	(fp_rect
+		(start -3.65 -3.4)
+		(end 3.7 2.35)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ec2540fc-7a87-4a5c-bde8-951cee924cbc")
+	)
+	(fp_text user "1"
+		(at -2.8675 1.4875 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d3842b76-a1d7-4a33-8e37-a2f9f753271f")
+		(effects
+			(font
+				(size 0.9144 0.9144)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.27 0 90)
+		(size 1.524 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "a9eb5330-0acb-4680-9bd5-2c4aa13c44ff")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0 90)
+		(size 1.524 1.524)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "e8875da8-07b2-471d-87ac-6fdf3e8c582e")
+	)
+	(model "${KIPRJMOD}/FED3_v7.3.pretty/B2B-PH-K-S.STEP"
+		(offset
+			(xyz 0 0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,193 @@
+(footprint "DO-214AC"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SURFACE MOUNT GENERAL RECTIFIER JEDEC DO-214AC molded platic body\n\nMethod 2026\nSource: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf")
+	(property "Reference" "REF**"
+		(at -0.254 2.667 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "973daa12-5232-4fc0-8e76-57eeaac6e83f")
+		(effects
+			(font
+				(size 0.73914 0.73914)
+				(thickness 0.17526)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "DIODE-DO-214AC"
+		(at -2.54 3.175 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7a658231-cbdb-441b-b460-650f58d19779")
+		(effects
+			(font
+				(size 1.176528 1.176528)
+				(thickness 0.093472)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" "FED3_v7.3:DO-214AC"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "beb7204e-d0b1-40b3-87a3-dba746a70577")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4bbbfbcb-75c9-4a46-b4e9-6a20f3f6bcfd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9dd04c14-013b-43b7-b160-31d341ed16db")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.035 -1.3)
+		(end 1.025 -1.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe85e7e1-317f-4218-bd13-65d50c1e39ed")
+	)
+	(fp_line
+		(start 1.025 1.3)
+		(end -1.035 1.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "238cf5d0-ce95-44e1-9dab-5448df4549e6")
+	)
+	(fp_poly
+		(pts
+			(xy -1.065 1.225) (xy -0.39 1.225) (xy -0.39 -1.225) (xy -1.065 -1.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "7ecb5c70-4ea0-48cc-95a9-392e070f6951")
+	)
+	(fp_line
+		(start -2.15 -1.3)
+		(end 2.15 -1.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eadb2491-0992-4f06-971a-d3a8b84f926a")
+	)
+	(fp_line
+		(start -2.15 1.3)
+		(end -2.15 -1.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc802f90-6102-44a1-9896-55b9a3c28151")
+	)
+	(fp_line
+		(start 2.15 -1.3)
+		(end 2.15 1.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3d4370f8-526e-45a8-b2f1-7e8e67a61343")
+	)
+	(fp_line
+		(start 2.15 1.3)
+		(end -2.15 1.3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ea3a461-c8fb-4ae1-97ba-ef8c9b5061e7")
+	)
+	(fp_poly
+		(pts
+			(xy -2.825 1.1) (xy -2.175 1.1) (xy -2.175 -1.1) (xy -2.825 -1.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "dc0e9835-7e1c-45c2-89cc-26ce94f490e7")
+	)
+	(fp_poly
+		(pts
+			(xy -1.75 1.225) (xy -1.075 1.225) (xy -1.075 -1.225) (xy -1.75 -1.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "9073f3c5-61fc-4e22-ba9d-d9ebd0c26373")
+	)
+	(fp_poly
+		(pts
+			(xy 2.825 -1.1) (xy 2.175 -1.1) (xy 2.175 1.1) (xy 2.825 1.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "a3da3d32-800c-4b7c-9648-e38d1a928c5c")
+	)
+	(pad "1" smd rect
+		(at -2.025 0)
+		(size 1.8 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "72edb25d-c078-4f9a-8dc4-d9e8ffcc1500")
+	)
+	(pad "2" smd rect
+		(at 2.025 0 180)
+		(size 1.8 2.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "42e96c8c-0398-4517-be6a-2cafe611ed4b")
+	)
+)

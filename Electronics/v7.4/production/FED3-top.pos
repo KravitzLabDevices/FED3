@@ -1,0 +1,74 @@
+### Footprint positions - created on 2025-07-04T10:56:19+0100 ###
+### Printed by KiCad version 9.0.0
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                  Package                                                PosX       PosY       Rot  Side
+                                                                                  192.5451  -100.7936    0.0000  top
+@HOLE0                                                                            115.0011   -90.0036    0.0000  top
+@HOLE1                                                                            196.5011  -103.0036    0.0000  top
+@HOLE2                                                                            161.5011  -103.0036    0.0000  top
+@HOLE2                                                                            135.5011  -103.0036    0.0000  top
+@HOLE5                                                                            104.7881  -100.7936    0.0000  top
+@HOLE6                                                                            118.5011  -116.0036    0.0000  top
+AUX_I2C0  Qwiic                JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical     128.0000  -126.3000  180.0000  top
+B1        CR1220               CR1220                                             168.4151   -91.3956   90.0000  top
+BZ1       Buzzer               Buzzer                                             128.9846  -110.1800  180.0000  top
+C1        10µF                C_0402_1005Metric                                  179.5000   -86.6000  180.0000  top
+C2        10µF                C_0402_1005Metric                                  177.5000   -87.8000   90.0000  top
+C3        10µF                C_0402_1005Metric                                  104.6000  -117.2000  -90.0000  top
+C4        10µF                C_0402_1005Metric                                  113.4250  -125.9500  180.0000  top
+C5        1uF                  C_0402_1005Metric                                  173.5000  -123.4000   90.0000  top
+C6        1uF                  C_0402_1005Metric                                  159.9500  -123.2500   90.0000  top
+C7        1uF                  C_0402_1005Metric                                  146.7000  -123.3000   90.0000  top
+C8        1uF                  C_0402_1005Metric                                  134.5000  -123.3000   90.0000  top
+C9        1uF                  C_0402_1005Metric                                  113.6000   -99.1000  -90.0000  top
+C10       1uF                  C_0402_1005Metric                                  174.1555   -98.8124   90.0000  top
+C11       10µF                C_0402_1005Metric                                  185.0500  -110.4500  180.0000  top
+C12       1uF                  C_0402_1005Metric                                  169.8800  -105.5875   90.0000  top
+C13       10µF                C_0402_1005Metric                                  182.8250  -105.8000   90.0000  top
+C14       10µF                C_0402_1005Metric                                  185.1000  -113.8500    0.0000  top
+C15       1uF                  C_0402_1005Metric                                  184.6250  -105.7500   90.0000  top
+C16       10µF                C_0402_1005Metric                                  165.6152  -124.7000  180.0000  top
+C17       22pF                 C_0402_1005Metric                                  167.1000  -108.7725   90.0000  top
+C18       22pF                 C_0402_1005Metric                                  167.1100  -111.3875  -90.0000  top
+C19       1uF                  C_0402_1005Metric                                  173.8800  -105.5875   90.0000  top
+CHG0      RED                  LED_0603_1608Metric                                200.8500  -101.4000  -90.0000  top
+EXT0      STEREO_JACK          35RASMT2BHNTRX                                     199.8443   -92.6148  180.0000  top
+IC1       MC74VHC1GT125        SOT-23-5                                           118.7000  -126.1000   90.0000  top
+IC2       TB6612FNG            SSOP24                                             111.0111  -114.0016  180.0000  top
+IC4       RTC_PCF8523T         SO-8_3.9x4.9mm_P1.27mm                             183.1471   -88.6016   90.0000  top
+J1        Conn_02x03_Odd_Even  PinHeader_2x03_P2.54mm_Vertical                    152.1750  -128.0150   90.0000  top
+L0        RED                  LED_0603_1608Metric                                160.0500  -112.5200  -90.0000  top
+L1        GREEN                LED_0603_1608Metric                                161.9400  -112.5200  -90.0000  top
+L2        DNP                  LED_0603_1608Metric                                194.6350  -113.3600  180.0000  top
+MOTOR0    PINHD-1X5            1X05                                               118.0011   -84.0036    0.0000  top
+Q2        DMP2035U-7           TSMT3                                              118.8500  -121.7625  -90.0000  top
+R1        1k                   R_0402_1005Metric                                  129.1000  -102.7000   90.0000  top
+R2        1k                   R_0402_1005Metric                                  154.2000  -109.7000   90.0000  top
+R3        1k                   R_0402_1005Metric                                  176.3091   -98.8436   90.0000  top
+R4        4k7                  R_0402_1005Metric                                  181.8500  -111.2000  -90.0000  top
+R5        4k7                  R_0402_1005Metric                                  181.9000  -113.2000  -90.0000  top
+R6        1k                   R_0402_1005Metric                                  179.5200   -88.3000    0.0000  top
+R7        DNP                  R_0402_1005Metric                                  115.6000  -124.1500  180.0000  top
+R8        4k7                  R_0402_1005Metric                                  115.6000  -122.3000    0.0000  top
+R9        34k                  R_0402_1005Metric                                  118.3900  -118.8700    0.0000  top
+R10       1k                   R_0402_1005Metric                                  165.9500  -122.4500  -90.0000  top
+R11       100k_0.1%            R_0402_1005Metric                                  187.9000  -110.4000    0.0000  top
+R12       330R                 R_0402_1005Metric                                  167.6700  -116.0250   90.0000  top
+R13       2k2                  R_0402_1005Metric                                  161.9400  -109.5200   90.0000  top
+R14       2k2                  R_0402_1005Metric                                  171.1000  -122.1000  180.0000  top
+R15       10k                  R_0402_1005Metric                                  160.0800  -109.5200   90.0000  top
+R16       100k_0.1%            R_0402_1005Metric                                  165.5752  -126.0500    0.0000  top
+R17       100k_0.1%            R_0402_1005Metric                                  163.3777  -126.0500  180.0000  top
+R19       DNP                  R_0402_1005Metric                                  192.2300  -113.1900  -90.0000  top
+SCREEN0   PINHD-1X6            1X06                                                97.2511  -105.2536  -90.0000  top
+SW2       SPST_TACT-KMR2       SW_SPST_TL3305B                                    177.8000  -122.1250  -90.0000  top
+U1        ATSAMD21G18A         TQFN48_7MM                                         173.8500  -112.6375  -90.0000  top
+U2        MIC5504-3.3          SOT-23-5                                           187.3000  -107.3000   90.0000  top
+U3        MCP73831T            SOT-23-5                                           169.4500  -124.7500    0.0000  top
+USB0      USB_MICRO_B          ZX62D-B-5P8                                        200.9000  -109.5500   90.0000  top
+X1        ClockXtal            CRYSTAL_8X3.8                                      182.6391   -97.4916  -90.0000  top
+X2        uXtal                Crystal_SMD_MicroCrystal_CC8V-T1A-2Pin_2.0x1.2mm   164.8700  -110.0975  -90.0000  top
+X4        microsd              MICROSD                                            181.7700  -128.9000   90.0000  top
+X5        JST-XH-02            JST-XH-02-PACKAGE-ROUND-PAD                        140.4243  -125.7364  180.0000  top
+## End
