@@ -1,0 +1,20 @@
+### Footprint positions - created on 2025-07-04T10:56:19+0100 ###
+### Printed by KiCad version 9.0.0
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                PosX       PosY       Rot  Side
+LED1      RGBLed    WS2812B            170.7519  -121.2660  -90.0000  bottom
+LED2      RGBLed    WS2812B            164.4019  -121.2660  -90.0000  bottom
+LED3      RGBLed    WS2812B            158.0519  -121.2660  -90.0000  bottom
+LED4      RGBLed    WS2812B            151.7019  -121.2660  -90.0000  bottom
+LED5      RGBLed    WS2812B            145.3519  -121.2660  -90.0000  bottom
+LED6      RGBLed    WS2812B            139.0019  -121.2660  -90.0000  bottom
+LED7      RGBLed    WS2812B            132.6519  -121.2660  -90.0000  bottom
+LED8      RGBLed    WS2812B            126.3019  -121.2660  -90.0000  bottom
+LED9      RGBLed    WS2812B            118.0011   -96.0004  180.0000  bottom
+LED10     RGBLed    WS2812B            179.0011   -96.0004  180.0000  bottom
+PI1       GP1A57HR  GP1A57HR           179.0011  -102.0036  180.0000  bottom
+PI2       GP1A57HR  GP1A57HR           148.5011  -109.0036  180.0000  bottom
+PI3       GP1A57HR  GP1A57HR           118.0011  -102.0036  180.0000  bottom
+SW1       Sw        SSSS811101         199.4500  -121.0500  -90.0000  bottom
+## End

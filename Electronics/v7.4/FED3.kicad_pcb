@@ -3886,6 +3886,7 @@
 		(path "/f4901940-5078-48a6-adaa-a0748712c93b/a2358f83-9d0b-4416-939f-f65796654f38")
 		(sheetname "/Controller Stage/")
 		(sheetfile "controler stage.kicad_sch")
+		(attr smd)
 		(fp_circle
 			(center 0 0)
 			(end 3.141057 0)
@@ -5849,7 +5850,7 @@
 			(at -0.730425 -0.998429 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "f4607b85-bd1a-4348-8961-0649cb4f5483")
+			(uuid "27b81207-286d-4883-bfad-8c2017df6348")
 			(effects
 				(font
 					(size 1 1)
@@ -5864,7 +5865,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d5e9c909-605b-4b3e-b872-7795831f123f")
+			(uuid "8866e65b-fd7b-4721-be48-631c293a3c87")
 			(effects
 				(font
 					(size 1 1)
@@ -5878,7 +5879,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e0e910aa-f865-4259-963f-8df382f68845")
+			(uuid "e0981439-5e01-43fe-8f0d-760c00955571")
 			(effects
 				(font
 					(size 1 1)
@@ -5891,7 +5892,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "48d45c3e-0f31-4263-b9be-32cd748b1b47")
+			(uuid "c0abd205-50d5-4999-919d-9fe757f5f1eb")
 			(effects
 				(font
 					(size 1 1)
@@ -5928,6 +5929,7 @@
 		(path "/91f92fff-cc86-4ce2-a671-c31760f8020c/f47a950b-7ced-4425-8294-193f50040349")
 		(sheetname "/IOs Interface/")
 		(sheetfile "IOs Interface.kicad_sch")
+		(attr smd)
 		(fp_line
 			(start -1.45 0.8)
 			(end -1.45 -0.8)
@@ -7320,6 +7322,7 @@
 		(path "/b92276a1-de96-439c-8ef3-b860b134b24d")
 		(sheetname "/")
 		(sheetfile "FED3.kicad_sch")
+		(attr smd)
 		(fp_line
 			(start 4.128 2.536)
 			(end 4.128 -2.536)
@@ -8480,6 +8483,7 @@
 		(path "/f4901940-5078-48a6-adaa-a0748712c93b/42433aa6-2c88-4b8a-abc6-6a87eb300d0e")
 		(sheetname "/Controller Stage/")
 		(sheetfile "controler stage.kicad_sch")
+		(attr smd)
 		(fp_line
 			(start -4.1 2)
 			(end -3.7 2)
@@ -18706,7 +18710,7 @@
 		(path "/012b129d-4b9b-46d2-903e-06d564886bf7")
 		(sheetname "/")
 		(sheetfile "FED3.kicad_sch")
-		(attr through_hole)
+		(attr smd)
 		(fp_line
 			(start -3.75 -2.9)
 			(end 3.75 -2.9)
@@ -22309,7 +22313,7 @@
 		(path "/91f92fff-cc86-4ce2-a671-c31760f8020c/d80942c9-1a44-44e7-8710-dd946cf5833b")
 		(sheetname "/IOs Interface/")
 		(sheetfile "IOs Interface.kicad_sch")
-		(attr smd exclude_from_pos_files)
+		(attr smd)
 		(fp_line
 			(start 11 3)
 			(end -3.5 3)
@@ -24382,6 +24386,7 @@
 		(path "/89cd4200-7aab-4445-baa8-cd9499a6a88f")
 		(sheetname "/")
 		(sheetfile "FED3.kicad_sch")
+		(attr smd)
 		(fp_line
 			(start -3.4 1.75)
 			(end 3.45 1.75)
