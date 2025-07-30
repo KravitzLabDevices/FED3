@@ -5854,7 +5854,7 @@
 				)
 			)
 		)
-		(property "Value" "JST-XH-02"
+		(property "Value" "B2B-PH-K-S"
 			(at 83.82 49.53 0)
 			(effects
 				(font
@@ -5891,7 +5891,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS070028"
+		(property "OEPSPN" "OEPS070130"
 			(at 82.55 46.99 0)
 			(effects
 				(font
@@ -5900,7 +5900,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "B2B-XH-A(LF)(SN)"
+		(property "MPN" "B2B-PH-K-S(LF)(SN)"
 			(at 82.55 46.99 0)
 			(effects
 				(font
