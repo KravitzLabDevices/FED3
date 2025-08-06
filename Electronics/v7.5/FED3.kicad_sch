@@ -10738,7 +10738,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS00000"
+		(property "OEPSPN" "OEPS000000"
 			(at 238.76 50.8 0)
 			(effects
 				(font
@@ -12116,7 +12116,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS00000"
+		(property "OEPSPN" "OEPS000000"
 			(at 180.34 120.65 0)
 			(effects
 				(font
