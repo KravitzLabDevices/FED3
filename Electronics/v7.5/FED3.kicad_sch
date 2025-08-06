@@ -4843,6 +4843,19 @@
 		)
 		(uuid "b91a612b-b8e9-46ae-a501-a08e5924dfe1")
 	)
+	(text "> Ratios to consider when choosing a battery charger\n\n  IPREG/IREG - Precondition current ration\n  VPTH/VREG - Precondition voltage threshold ration\n                          71.5% is 3.00V for a 4.2V bat\n                          66.5% is 2.79V for a 4.2V bat\n\n  ITERM/IREG - Charge termination current ration\n                          7.5%  of 750 mA is  56.25 mA\n                          20.0% of 750 mA is 150.00 mA\n\n  VRTH/VREG - Recharge voltage threshold ration\n                          96.5% is 4.05V for a 4.2V bat\n                          94.0% is 3.98V for a 4.2V bat\n\n> Note:\n\n  Ideally, the charging should stop when charging current drops bellow 0.1C.\n  Leaving the battery connected to the charger bellow 0.1C can lead to overcharging and potentially damage the battery.\n\n> Current devices with battery chargers\n\n  Harp - Timestamp Gen3 (MCP73831T-2ATI/OT)\n  Open Ephys - Ephys test board (MCP73831T-2ATI/OT)\n     IPREG/IREG - 10%\n     VPTH/VREG - 71.5%\n     ITERM/IREG - 20%\n     VRTH/VREG - 94%\n\n  Open Ephys - FED3 v7.2\n     IPREG/IREG - 10%\n     VPTH/VREG - 66.5%\n     ITERM/IREG - 7.5%\n     VRTH/VREG - 96.5%\n\n> Battery specs\n\n   1C = 4400 mA\n   0.1C = 440 mA\n\n> Options to consider\n\n     MPN                !TE    Timer   ITERM/IREG\n     MCP73834T-CNI/MF   Vbat   4h      20% ~160mA @ IREG = 800mA\n     MCP73834T-CNI/MF   GND    6h      7.5% ~60mA @ IREG = 800mA"
+		(exclude_from_sim no)
+		(at 300.736 176.276 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 2.1844 1.8567)
+				(thickness 0.2321)
+			)
+			(justify left bottom)
+		)
+		(uuid "dea86a14-e075-4186-8708-4e16b7043d15")
+	)
 	(text "LOW: Standby\n200 kΩ pull-down at internal"
 		(exclude_from_sim no)
 		(at 200.406 133.096 0)
@@ -7194,7 +7207,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 46a91a70-abb6-4bf1-9b7d-7dbd9fefd806)
+			(uuid 8670fc51-6f01-400d-9b56-a726db8ad678)
 		)
 	)
 	(symbol
@@ -10678,7 +10691,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9816405e-6ab8-4fed-9874-52d264a1dba5")
 		(property "Reference" "R19"
 			(at 241.3 49.5299 0)
