@@ -9851,7 +9851,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "4k7"
 			(at 241.3 41.9099 0)
 			(effects
 				(font
@@ -9879,7 +9879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 4k7"
 			(at 238.76 40.64 0)
 			(effects
 				(font
@@ -9888,7 +9888,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "n.a."
+		(property "OEPSPN" "OEPS020010"
 			(at 238.76 40.64 0)
 			(effects
 				(font
@@ -9897,7 +9897,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "n.a."
+		(property "MPN" "ERJ-2RKF4701X"
 			(at 238.76 40.64 0)
 			(effects
 				(font
@@ -11683,7 +11683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 1kΩ ±1% 0.100W"
+		(property "Description" "SMD 0402 4k7"
 			(at 175.26 41.91 0)
 			(effects
 				(font
@@ -11844,7 +11844,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "_TBD"
+		(property "OEPSPN" "OEPS080177"
 			(at 205.74 40.64 0)
 			(effects
 				(font
@@ -11853,7 +11853,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MCP73834-xxxx"
+		(property "MPN" "MCP73834-CNI/MF"
 			(at 205.74 40.64 0)
 			(effects
 				(font
