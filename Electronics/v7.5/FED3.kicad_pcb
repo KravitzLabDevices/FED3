@@ -8795,7 +8795,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "_TBD"
+		(property "OEPSPN" "OEPS080177"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8808,7 +8808,7 @@
 				)
 			)
 		)
-		(property "MPN" "MCP73834-xxxx"
+		(property "MPN" "MCP73834-CNI/MF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19147,7 +19147,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 1kΩ ±1% 0.100W"
+		(property "Description" "SMD 0402 4k7"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20562,7 +20562,7 @@
 				)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "4k7"
 			(at 0 1.17 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20587,7 +20587,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD 0402 4k7"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20600,7 +20600,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "n.a."
+		(property "OEPSPN" "OEPS020010"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20613,7 +20613,7 @@
 				)
 			)
 		)
-		(property "MPN" "n.a."
+		(property "MPN" "ERJ-2RKF4701X"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21739,7 +21739,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "n.a."
+		(property "OEPSPN" "OEPS00000"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21769,7 +21769,7 @@
 		(path "/9816405e-6ab8-4fed-9874-52d264a1dba5")
 		(sheetname "/")
 		(sheetfile "FED3.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
@@ -22421,7 +22421,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "n.a."
+		(property "OEPSPN" "OEPS070131"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22434,7 +22434,7 @@
 				)
 			)
 		)
-		(property "MPN" "n.a."
+		(property "MPN" "M20-9990546"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24294,7 +24294,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "n.a."
+		(property "OEPSPN" "OEPS00000"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

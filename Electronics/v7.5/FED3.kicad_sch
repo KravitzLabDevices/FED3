@@ -10738,7 +10738,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "n.a."
+		(property "OEPSPN" "OEPS00000"
 			(at 238.76 50.8 0)
 			(effects
 				(font
@@ -12116,7 +12116,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "n.a."
+		(property "OEPSPN" "OEPS00000"
 			(at 180.34 120.65 0)
 			(effects
 				(font
@@ -12471,7 +12471,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "n.a."
+		(property "OEPSPN" "OEPS070131"
 			(at 264.16 151.13 0)
 			(effects
 				(font
@@ -12480,7 +12480,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "n.a."
+		(property "MPN" "M20-9990546"
 			(at 264.16 151.13 0)
 			(effects
 				(font
