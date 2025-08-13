@@ -29779,8 +29779,8 @@
 		(uuid "0c0fae17-f2be-4342-bf44-be7a2b7a33d7")
 	)
 	(gr_circle
-		(center 112.57 95.811085)
-		(end 113.528541 96.261085)
+		(center 111.37 95.911085)
+		(end 112.328541 96.361085)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -30561,7 +30561,7 @@
 		)
 	)
 	(gr_text "Using FED3 with a battery?\n  Yes: Remove jumper\n  No:  Insert jumper"
-		(at 114.13 99.62 0)
+		(at 112.93 99.72 0)
 		(layer "F.SilkS")
 		(uuid "325f0460-edec-4504-adc1-3e930396f6b7")
 		(effects
@@ -30771,7 +30771,7 @@
 		)
 	)
 	(gr_text "J2"
-		(at 112.56 95.762544 0)
+		(at 111.36 95.862544 0)
 		(layer "F.SilkS")
 		(uuid "9d58d8b4-6b22-41a5-99d7-8f2c7e3728ef")
 		(effects
