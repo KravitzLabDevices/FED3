@@ -5287,16 +5287,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 55.88) (xy 182.88 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17044cf0-c4e1-4b71-bdbb-33e2af00ecf9")
-	)
-	(wire
-		(pts
 			(xy 62.23 105.41) (xy 62.23 107.95)
 		)
 		(stroke
@@ -5697,6 +5687,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 53.34) (xy 175.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52903643-633a-43bb-8482-42a92a594000")
+	)
+	(wire
+		(pts
 			(xy 238.76 54.61) (xy 238.76 60.96)
 		)
 		(stroke
@@ -5774,16 +5774,6 @@
 			(type solid)
 		)
 		(uuid "5b2c483d-45f9-4a2c-910c-5b9746aa76ca")
-	)
-	(wire
-		(pts
-			(xy 179.07 53.34) (xy 179.07 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b9bfcd0-94a8-444f-8353-a75b06d3a177")
 	)
 	(wire
 		(pts
@@ -6024,6 +6014,16 @@
 			(type default)
 		)
 		(uuid "801cb56f-59f8-440b-9dbb-a93da6da8ebe")
+	)
+	(wire
+		(pts
+			(xy 175.26 27.94) (xy 175.26 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b23f9a-ea0d-4faf-9004-5479098d9a42")
 	)
 	(wire
 		(pts
@@ -6847,6 +6847,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 55.88) (xy 175.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd772ffa-302d-4ad5-8758-572c892f003f")
+	)
+	(wire
+		(pts
 			(xy 48.26 140.97) (xy 53.34 140.97)
 		)
 		(stroke
@@ -7207,7 +7217,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 62edd3a1-58f6-4e70-875b-d5c47973863a)
+			(uuid c062d10c-b850-4df5-b554-5c5fd7ea61f1)
 		)
 	)
 	(symbol
@@ -9834,6 +9844,73 @@
 		)
 	)
 	(symbol
+		(lib_id "FED3 SymbLib:VUSB")
+		(at 175.26 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "765d81ce-52cb-4833-8de9-0a8ffa92cbca")
+		(property "Reference" "#PWR070"
+			(at 175.26 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "VUSB"
+			(at 173.482 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VUSB\""
+			(at 175.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2f55e0c-415e-41ee-9fca-397489cbe84c")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 238.76 40.64 180)
 		(unit 1)
@@ -10618,73 +10695,6 @@
 		)
 	)
 	(symbol
-		(lib_id "FED3 SymbLib:V_Batt")
-		(at 179.07 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "94fa42b6-6fc9-409e-a2c2-e733a196a0e7")
-		(property "Reference" "#PWR070"
-			(at 179.07 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBat"
-			(at 176.022 49.784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"V_Batt\""
-			(at 179.07 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e57a473-7bc4-4ecf-9130-8f22faa93a06")
-		)
-		(instances
-			(project "FED3"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 238.76 50.8 0)
 		(unit 1)
@@ -10995,7 +11005,7 @@
 	)
 	(symbol
 		(lib_id "FED3 SymbLib:VUSB")
-		(at 175.26 29.21 0)
+		(at 175.26 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11003,7 +11013,7 @@
 		(dnp no)
 		(uuid "b88011ae-b4a1-495a-bf26-ee24cb81c5fa")
 		(property "Reference" "#PWR063"
-			(at 175.26 33.02 0)
+			(at 175.26 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11013,7 +11023,7 @@
 			)
 		)
 		(property "Value" "VUSB"
-			(at 173.482 24.892 0)
+			(at 173.482 23.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11022,7 +11032,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 29.21 0)
+			(at 175.26 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11031,7 +11041,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 29.21 0)
+			(at 175.26 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11040,7 +11050,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VUSB\""
-			(at 175.26 29.21 0)
+			(at 175.26 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
