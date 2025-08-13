@@ -31453,7 +31453,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "v7.5"
+	(gr_text "v7.6"
 		(at 96.88 124.92 90)
 		(layer "F.SilkS")
 		(uuid "f866ddd9-4596-4f76-bda8-3ead3ce79c18")
