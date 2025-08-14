@@ -4059,6 +4059,12 @@
 		(uuid "1f94e01e-f5bf-4a31-b799-7e3c3fb9ec41")
 	)
 	(junction
+		(at 30.48 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a2975dc-e5fb-4b23-84e1-785215dddab2")
+	)
+	(junction
 		(at 219.71 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4556,6 +4562,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 53.34) (xy 30.48 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f42d9c8-5d3b-47f8-8ae6-09bbbf3249af")
+	)
+	(wire
+		(pts
 			(xy 120.65 90.17) (xy 138.43 90.17)
 		)
 		(stroke
@@ -4706,6 +4722,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 58.42) (xy 30.48 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "598aed2e-caf8-4950-acf3-82b76531474b")
+	)
+	(wire
+		(pts
 			(xy 77.47 168.91) (xy 76.2 168.91)
 		)
 		(stroke
@@ -4763,6 +4789,16 @@
 			(type solid)
 		)
 		(uuid "682b2d98-7ba2-4fde-8a6d-caa25dcb3d02")
+	)
+	(wire
+		(pts
+			(xy 19.05 49.53) (xy 30.48 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6934a02a-bdd3-4785-8b6b-793849a84d63")
 	)
 	(wire
 		(pts
@@ -5156,6 +5192,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 49.53) (xy 43.18 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad1db7ff-8430-4cba-be99-20f9e05067e4")
+	)
+	(wire
+		(pts
 			(xy 41.91 113.03) (xy 41.91 115.57)
 		)
 		(stroke
@@ -5406,6 +5452,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 53.34) (xy 19.05 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a939be-448e-4d1b-a930-bd381ca80277")
+	)
+	(wire
+		(pts
 			(xy 120.65 72.39) (xy 138.43 72.39)
 		)
 		(stroke
@@ -5493,6 +5549,16 @@
 			(type solid)
 		)
 		(uuid "ee47d0b9-c88a-45f6-912c-e18140508549")
+	)
+	(wire
+		(pts
+			(xy 19.05 58.42) (xy 19.05 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee85406f-0f68-4387-a4ca-2d01d6cd0129")
 	)
 	(wire
 		(pts
@@ -6896,6 +6962,73 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
+		(at 30.48 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e3fae14-0cd5-4518-9aea-9d20ed3cb159")
+		(property "Reference" "#PWR072"
+			(at 30.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.734 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 30.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "097fef04-a665-41e1-ad6b-6802605f78bc")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/f4901940-5078-48a6-adaa-a0748712c93b"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
 		(at 41.91 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7339,6 +7472,94 @@
 			(project "FED3_v7.3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/f4901940-5078-48a6-adaa-a0748712c93b"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 19.05 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a0676ca-8f0e-45dc-8c81-a5ebcda74bb6")
+		(property "Reference" "C24"
+			(at 21.59 54.6162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 21.59 57.1562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 19.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD CER 0402 100nF 25V ±10% X7R"
+			(at 19.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEPSPN" "OEPS010050"
+			(at 19.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1005X7R1E104K050BB"
+			(at 19.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc7dc626-ecb5-4a47-abc7-8ed9a0159c06")
+		)
+		(pin "2"
+			(uuid "819e9302-38fb-4c2e-9c9a-e2175c4792bc")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/f4901940-5078-48a6-adaa-a0748712c93b"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -7900,6 +8121,94 @@
 			(project "FED3_v7.3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/f4901940-5078-48a6-adaa-a0748712c93b"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 30.48 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7cd6c8ac-5cc0-4be1-908c-e66232e4feff")
+		(property "Reference" "C23"
+			(at 33.02 54.6162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 33.02 57.1562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 30.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD CER 0402 100nF 25V ±10% X7R"
+			(at 30.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEPSPN" "OEPS010050"
+			(at 30.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1005X7R1E104K050BB"
+			(at 30.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ca57089-6728-46d3-9a66-4b34d6514704")
+		)
+		(pin "2"
+			(uuid "38fb27ce-e2d4-4793-bb4a-d7864132e9e7")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/f4901940-5078-48a6-adaa-a0748712c93b"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -8564,7 +8873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 4.7kΩ ±1% 0.100W"
+		(property "Description" "SMD 0402 4.7k 1% 0.100W"
 			(at 207.01 139.7 0)
 			(effects
 				(font
@@ -9952,7 +10261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 4.7kΩ ±1% 0.100W"
+		(property "Description" "SMD 0402 4.7k 1% 0.100W"
 			(at 210.185 139.7 0)
 			(effects
 				(font
@@ -10372,6 +10681,73 @@
 			(project "FED3_v7.3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/f4901940-5078-48a6-adaa-a0748712c93b"
 					(reference "#+3V05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 19.05 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff5bfeea-afe5-49f1-a327-2cbd2dc04fa4")
+		(property "Reference" "#PWR073"
+			(at 19.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 19.304 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 19.05 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14623f54-a49d-4730-8fae-01dacbcefb1d")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/f4901940-5078-48a6-adaa-a0748712c93b"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)

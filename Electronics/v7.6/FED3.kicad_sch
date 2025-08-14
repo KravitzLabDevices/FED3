@@ -4762,7 +4762,7 @@
 	)
 	(rectangle
 		(start 170.18 13.97)
-		(end 270.51 70.485)
+		(end 279.4 70.485)
 		(stroke
 			(width 0.5)
 			(type default)
@@ -4774,7 +4774,7 @@
 	)
 	(rectangle
 		(start 170.815 76.2)
-		(end 271.145 167.64)
+		(end 279.4 167.64)
 		(stroke
 			(width 0.5)
 			(type default)
@@ -4994,6 +4994,12 @@
 		(uuid "91a6392d-80d9-4ef5-8d10-df952cb32e80")
 	)
 	(junction
+		(at 267.97 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d766248-ab4f-470b-bfe8-cd4f5dc723c7")
+	)
+	(junction
 		(at 238.76 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5106,6 +5112,16 @@
 			(type solid)
 		)
 		(uuid "027d0ee9-ad0c-4981-a52c-c60eb9582557")
+	)
+	(wire
+		(pts
+			(xy 267.97 46.99) (xy 252.73 46.99)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "06a3c983-72d6-4a3d-95ea-d6f02257c0ad")
 	)
 	(wire
 		(pts
@@ -5889,7 +5905,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 46.99) (xy 252.73 46.99)
+			(xy 270.51 46.99) (xy 267.97 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6509,6 +6525,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 46.99) (xy 267.97 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c40854ff-1712-46a6-a5b8-108fa7021cb8")
+	)
+	(wire
+		(pts
 			(xy 83.82 107.95) (xy 83.82 110.49)
 		)
 		(stroke
@@ -6556,6 +6582,16 @@
 			(type default)
 		)
 		(uuid "cf9ce907-b583-4dd5-8702-36649855641e")
+	)
+	(wire
+		(pts
+			(xy 267.97 55.88) (xy 267.97 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a9daf5-9675-442a-912d-aca789ae6f29")
 	)
 	(wire
 		(pts
@@ -7213,7 +7249,7 @@
 	)
 	(global_label "D9"
 		(shape input)
-		(at 256.54 46.99 0)
+		(at 270.51 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7223,7 +7259,7 @@
 		)
 		(uuid "af4e1f8b-8eb3-4654-aa3a-657b401e3f2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.2108 46.99 0)
+			(at 275.1808 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8571,6 +8607,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 267.97 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32655c7d-a386-4845-8da7-d801c0a2385c")
+		(property "Reference" "C22"
+			(at 270.51 52.0762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 270.51 54.6162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 267.97 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD CER 0402 100nF 25V ±10% X7R"
+			(at 267.97 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEPSPN" "OEPS010050"
+			(at 267.97 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1005X7R1E104K050BB"
+			(at 267.97 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d136f16a-9082-4bbc-af87-6b19ef45fbe0")
+		)
+		(pin "2"
+			(uuid "d8b5a9c1-242e-43ed-9f23-0bb859949873")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 67.31 43.18 0)
 		(mirror y)
@@ -9052,7 +9176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 4.7kΩ ±1% 0.100W"
+		(property "Description" "SMD 0402 4.7k 1% 0.100W"
 			(at 180.34 134.62 0)
 			(effects
 				(font
@@ -10028,7 +10152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 4k7"
+		(property "Description" "SMD 0402 4.7k 1% 0.100W"
 			(at 238.76 40.64 0)
 			(effects
 				(font
@@ -10745,7 +10869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "SMD 0402 5.1k 1% 0.100W"
 			(at 88.9 81.28 0)
 			(effects
 				(font
@@ -11976,7 +12100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 4k7"
+		(property "Description" "SMD 0402 4.7k 1% 0.100W"
 			(at 175.26 41.91 0)
 			(effects
 				(font
@@ -12192,6 +12316,73 @@
 			(project ""
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 267.97 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf020271-306b-49ab-a30e-66d2af3b05d3")
+		(property "Reference" "#PWR071"
+			(at 267.97 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.192 62.738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 267.97 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01c94f90-ddeb-4814-90b9-a37dba106dbb")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -13142,7 +13333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" "SMD 0402 5.1k 1% 0.100W"
 			(at 80.01 81.28 0)
 			(effects
 				(font
