@@ -2295,7 +2295,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 330Ω ±1% 0.063W"
+		(property "Description" "SMD 0402 330Ω ±1% 0.200W"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2308,7 +2308,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020037"
+		(property "OEPSPN" "OEPS020191"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2321,7 +2321,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-07330RL"
+		(property "MPN" "CRCW0402330RFKEDHP"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8265,7 +8265,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 330Ω ±1% 0.063W"
+		(property "Description" "SMD 0402 330Ω ±1% 0.200W"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8278,7 +8278,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020037"
+		(property "OEPSPN" "OEPS020191"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8291,7 +8291,7 @@
 				)
 			)
 		)
-		(property "MPN" "RC0402FR-07330RL"
+		(property "MPN" "CRCW0402330RFKEDHP"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")

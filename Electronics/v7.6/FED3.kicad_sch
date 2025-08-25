@@ -7345,7 +7345,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 8dc48250-a104-4e66-bbed-ff5478a37216)
+			(uuid 2c709580-e4b7-4191-94dc-8eedcd69e6c5)
 		)
 	)
 	(symbol
@@ -8045,7 +8045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 330Ω ±1% 0.063W"
+		(property "Description" "SMD 0402 330Ω ±1% 0.200W"
 			(at 88.9 35.56 0)
 			(effects
 				(font
@@ -8054,7 +8054,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020037"
+		(property "OEPSPN" "OEPS020191"
 			(at 88.9 35.56 0)
 			(effects
 				(font
@@ -8063,7 +8063,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-07330RL"
+		(property "MPN" "CRCW0402330RFKEDHP"
 			(at 88.9 35.56 0)
 			(effects
 				(font
