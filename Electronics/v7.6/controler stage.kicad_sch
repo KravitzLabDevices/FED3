@@ -6455,7 +6455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 1.27kΩ ±1% 0.100W"
+		(property "Description" "SMD 0402 1.27kΩ ±1% 0.063W"
 			(at 105.41 171.45 0)
 			(effects
 				(font

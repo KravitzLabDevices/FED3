@@ -8435,7 +8435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 34kΩ ±0.1% 0.063W"
+		(property "Description" "SMD 0402 100kΩ ±0.1% 0.063W"
 			(at 71.12 49.53 0)
 			(effects
 				(font
@@ -8820,7 +8820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 34kΩ ±0.1% 0.063W"
+		(property "Description" "SMD 0402 100kΩ ±0.1% 0.063W"
 			(at 64.77 49.53 0)
 			(effects
 				(font

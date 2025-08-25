@@ -7345,7 +7345,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 2c709580-e4b7-4191-94dc-8eedcd69e6c5)
+			(uuid 98cad8b4-198a-41cb-b17f-e4b7fc20a608)
 		)
 	)
 	(symbol
@@ -8538,7 +8538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 1.27kΩ ±1% 0.100W"
+		(property "Description" "SMD 0402 1.27kΩ ±1% 0.063W"
 			(at 231.14 55.88 0)
 			(effects
 				(font
