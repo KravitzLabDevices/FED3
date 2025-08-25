@@ -5335,6 +5335,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 39.37) (xy 88.9 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc68412-bfc7-4e87-ba77-8d0561fbd3a0")
+	)
+	(wire
+		(pts
 			(xy 234.95 114.3) (xy 237.49 114.3)
 		)
 		(stroke
@@ -6635,6 +6645,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 30.48) (xy 88.9 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5c46fd8-e246-4a52-9c21-88f2be7fae71")
+	)
+	(wire
+		(pts
 			(xy 237.49 139.7) (xy 237.49 137.16)
 		)
 		(stroke
@@ -7325,7 +7345,7 @@
 			(fill
 				(type none)
 			)
-			(uuid c062d10c-b850-4df5-b554-5c5fd7ea61f1)
+			(uuid 2c709580-e4b7-4191-94dc-8eedcd69e6c5)
 		)
 	)
 	(symbol
@@ -7980,6 +8000,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 88.9 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1761c76e-8496-473a-bb4e-15acb24b9c8f")
+		(property "Reference" "R26"
+			(at 90.932 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330R"
+			(at 90.932 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 88.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0402 330Ω ±1% 0.200W"
+			(at 88.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEPSPN" "OEPS020191"
+			(at 88.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW0402330RFKEDHP"
+			(at 88.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ffa33bbe-6fbc-489b-b0a7-05bcb175963f")
+		)
+		(pin "1"
+			(uuid "864396e7-a282-4420-938d-08048feaa238")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 241.3 102.87 0)
 		(mirror y)
@@ -8467,6 +8575,73 @@
 			(project "FED3_v7.3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FED3 SymbLib:VUSB")
+		(at 88.9 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c9ddb2f-210f-44cd-a29e-f8f053769993")
+		(property "Reference" "#PWR074"
+			(at 88.9 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "VUSB"
+			(at 89.662 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VUSB\""
+			(at 88.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c788720-b411-4eae-849a-1f8efd129848")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -11230,6 +11405,73 @@
 			(project "FED3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 43.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae83358b-2f5e-4f62-b549-410c2f9d11c1")
+		(property "Reference" "#PWR0733"
+			(at 88.9 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0ef768f-6f34-4405-8b1e-566582d57038")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
+					(reference "#PWR0733")
 					(unit 1)
 				)
 			)
