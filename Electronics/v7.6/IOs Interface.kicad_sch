@@ -9725,7 +9725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 330Ω ±1% 0.200W"
+		(property "Description" "SMD 0402 330Ω ±1% 0.063W"
 			(at 67.31 77.47 0)
 			(effects
 				(font
@@ -9734,7 +9734,7 @@
 				(hide yes)
 			)
 		)
-		(property "OEPSPN" "OEPS020191"
+		(property "OEPSPN" "OEPS020037"
 			(at 67.31 77.47 0)
 			(effects
 				(font
@@ -9743,7 +9743,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW0402330RFKEDHP"
+		(property "MPN" "RC0402FR-07330RL"
 			(at 67.31 77.47 0)
 			(effects
 				(font
