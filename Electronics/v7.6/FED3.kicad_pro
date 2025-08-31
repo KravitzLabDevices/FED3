@@ -159,10 +159,6 @@
         [
           "lib_footprint_mismatch|198825000|121050000|2d41847d-09fe-4ab4-a6d1-e8bde7eef726|00000000-0000-0000-0000-000000000000",
           ""
-        ],
-        [
-          "unconnected_items|196429200|111353600|bcbefa2c-afdd-43e9-9267-d6d6ea2eb16e|07db9bea-bf8a-4a7f-8525-6d9e42ea194c",
-          ""
         ]
       ],
       "meta": {
@@ -634,10 +630,10 @@
     "bom_export_filename": "PickPlace&BOM\\FED3 BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
-      "field_delimiter": "\t",
+      "field_delimiter": ";",
       "keep_line_breaks": false,
       "keep_tabs": false,
-      "name": "TSV",
+      "name": "---",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
       "string_delimiter": ""
@@ -823,16 +819,16 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Reference",
           "name": "Reference",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -844,7 +840,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "MPN",
           "name": "MPN",
           "show": true
@@ -856,16 +852,16 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Do Not Place",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

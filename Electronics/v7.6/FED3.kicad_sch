@@ -5335,16 +5335,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 39.37) (xy 88.9 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bc68412-bfc7-4e87-ba77-8d0561fbd3a0")
-	)
-	(wire
-		(pts
 			(xy 234.95 114.3) (xy 237.49 114.3)
 		)
 		(stroke
@@ -5615,6 +5605,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 30.48) (xy 104.14 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4783b190-6b92-40c3-83e1-9990dae9cb90")
+	)
+	(wire
+		(pts
 			(xy 64.77 63.5) (xy 71.12 63.5)
 		)
 		(stroke
@@ -5872,6 +5872,16 @@
 			(type solid)
 		)
 		(uuid "63c119be-fb0f-4cc3-9c29-700281f548b1")
+	)
+	(wire
+		(pts
+			(xy 104.14 39.37) (xy 104.14 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6450eefc-7dce-484e-86bc-220ede84759d")
 	)
 	(wire
 		(pts
@@ -6645,16 +6655,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 30.48) (xy 88.9 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5c46fd8-e246-4a52-9c21-88f2be7fae71")
-	)
-	(wire
-		(pts
 			(xy 237.49 139.7) (xy 237.49 137.16)
 		)
 		(stroke
@@ -7345,7 +7345,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 98cad8b4-198a-41cb-b17f-e4b7fc20a608)
+			(uuid bc585821-28c9-40be-a244-1caa7dc77813)
 		)
 	)
 	(symbol
@@ -8000,94 +8000,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 88.9 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1761c76e-8496-473a-bb4e-15acb24b9c8f")
-		(property "Reference" "R26"
-			(at 90.932 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330R"
-			(at 90.932 36.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1588)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 88.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0402 330Ω ±1% 0.200W"
-			(at 88.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OEPSPN" "OEPS020191"
-			(at 88.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CRCW0402330RFKEDHP"
-			(at 88.9 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ffa33bbe-6fbc-489b-b0a7-05bcb175963f")
-		)
-		(pin "1"
-			(uuid "864396e7-a282-4420-938d-08048feaa238")
-		)
-		(instances
-			(project "FED3"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 241.3 102.87 0)
 		(mirror y)
@@ -8150,6 +8062,73 @@
 			(project ""
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 43.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17fd6198-734d-4371-9a8d-b53e61c80dab")
+		(property "Reference" "#PWR0734"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f033a83d-df2f-430c-b482-d4183bdfb75c")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
+					(reference "#PWR0734")
 					(unit 1)
 				)
 			)
@@ -8575,73 +8554,6 @@
 			(project "FED3_v7.3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FED3 SymbLib:VUSB")
-		(at 88.9 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c9ddb2f-210f-44cd-a29e-f8f053769993")
-		(property "Reference" "#PWR074"
-			(at 88.9 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Value" "VUSB"
-			(at 89.662 28.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VUSB\""
-			(at 88.9 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c788720-b411-4eae-849a-1f8efd129848")
-		)
-		(instances
-			(project "FED3"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -9985,6 +9897,73 @@
 			(project "FED3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
 					(reference "#PWR0738")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FED3 SymbLib:VUSB")
+		(at 104.14 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b59e34b-3c3c-4424-bce3-d8cd42c7b422")
+		(property "Reference" "#PWR075"
+			(at 104.14 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "VUSB"
+			(at 104.902 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VUSB\""
+			(at 104.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aab72a54-457c-4cc7-a8b4-664393796749")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -11411,73 +11390,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 88.9 43.18 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae83358b-2f5e-4f62-b549-410c2f9d11c1")
-		(property "Reference" "#PWR0733"
-			(at 88.9 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0ef768f-6f34-4405-8b1e-566582d57038")
-		)
-		(instances
-			(project "FED3"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
-					(reference "#PWR0733")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 224.79 34.29 0)
 		(unit 1)
@@ -12625,6 +12537,94 @@
 			(project "FED3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
 					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 104.14 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfb973b5-d4a5-4717-a779-3e9d2eed839b")
+		(property "Reference" "R26"
+			(at 106.68 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "510"
+			(at 106.68 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 105.156 35.814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0805 330Ω ±5% 0.500W"
+			(at 104.14 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESR10EZPJ391"
+			(at 104.14 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OEPSPN" "OEPS020192"
+			(at 104.14 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "932a9a4c-0bf0-471d-b973-23f3f4cdc539")
+		)
+		(pin "1"
+			(uuid "0a48cde3-cf85-4dbb-a9d1-6316a0c63fd1")
+		)
+		(instances
+			(project ""
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
+					(reference "R26")
 					(unit 1)
 				)
 			)
