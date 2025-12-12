@@ -1,4 +1,6 @@
-## Feeding Experimentation Device version 3 (FED3)
+### Note: This repository describes how to build FED3 devices, and is mostly here for historical purposes. If you purchased a FED3 device and want to know how to program and use it, please visit the [FED3_library wiki](https://github.com/KravitzLabDevices/FED3_library/wiki).
+
+---
 
 FED3 is an open-source battery-powered device for home-cage training of mice in operant tasks. FED3 can be [3D printed](https://github.com/KravitzLabDevices/FED3/tree/main/3Dfiles) and the control code is open-source and can be modified. The [code](https://github.com/KravitzLabDevices/FED3/tree/main/ArduinoCode) is written in the [Arduino](https://www.arduino.cc/) language and is run on a [Feather M0 Adalogger](https://www.adafruit.com/product/2796) microcontroller inside of FED3.  For information on how to build and use FED3 check out the [Wiki](https://github.com/KravitzLabDevices/FED3/wiki), and the [Google group](https://groups.google.com/forum/#!forum/fedforum).
 
