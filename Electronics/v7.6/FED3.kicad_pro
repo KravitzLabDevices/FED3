@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.9,
-          "height": 2.9,
-          "width": 2.9
+          "drill": 0.5,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -65,99 +65,7 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|111011100|114001600|6a7e2b15-b007-4da6-bc1d-f01bb614f05d|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|118001100|102003600|771cc93c-5e68-4424-819c-fd2afc28c2a3|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|118001100|84003600|daa64e2c-688c-422a-b34a-34c48b41f8d1|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|118001100|95687900|4dbd8d8f-c676-4fe5-92e4-72e9ad91ef30|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|118850000|121762500|5bd66e5c-826c-40bc-99e4-ceb1d36aca9a|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|125989400|121266000|528b211d-9788-4387-8fb0-a7f203fe0f2e|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|128000000|126300000|94987269-fc4a-4a89-87b2-a0f75cee241e|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|128984600|110180000|d7ee227d-ee70-4eaf-9f5a-bfd140f60b16|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|132339400|121266000|dc94362c-6e3a-4f02-999e-2fd2b56a1a67|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|138689400|121266000|d80c9e4a-4ef7-4cb7-83bf-e17aded1409e|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|140424300|126236400|ac1a4fae-cecf-4ad1-acb2-11e1ac7a1787|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|145039400|121266000|e57960db-e28d-4da1-a399-51ab487e478f|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|148501100|109003600|9a2450ac-1858-48ef-8d88-74962fcd22ae|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|151389400|121266000|1d105fa1-6a1a-44fb-bb5e-4f413309146d|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|157739400|121266000|55c00bd5-b983-4031-8a3b-7dd29dc77612|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|164089400|121266000|cc67f820-b477-4040-9cb2-9871fe544755|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|168415100|91395600|4c84bf3b-134a-4f23-8e47-9994613c8833|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|169383100|125927500|6c576762-2188-484a-b269-36d6406842be|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|170439400|121266000|6312baf5-cbbe-4dd7-8227-70c4483c8a04|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|179001100|102003600|7fe128bb-7708-49b0-beb3-0d4af10d193e|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|179001100|95687900|02d8ca99-b9e2-45e4-bc53-d46cf3792eb2|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|182664100|97516600|6ff0996c-5424-4a9f-a0ca-51f08b674a22|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|197331800|92614800|e309eccb-15ab-4be1-9241-91ca9196b84d|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|198825000|121050000|2d41847d-09fe-4ab4-a6d1-e8bde7eef726|00000000-0000-0000-0000-000000000000",
+          "unconnected_items|196429200|111353600|F.Cu|4|acae260c-aeeb-4bb5-be00-0b7695a597de|86433c98-2832-48c6-9526-f1ed5953d59d",
           ""
         ]
       ],
@@ -258,7 +166,7 @@
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -269,7 +177,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -280,7 +188,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -570,6 +478,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"

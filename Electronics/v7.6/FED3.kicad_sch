@@ -4761,7 +4761,7 @@
 		)
 	)
 	(rectangle
-		(start 170.18 13.97)
+		(start 163.83 13.97)
 		(end 279.4 70.485)
 		(stroke
 			(width 0.5)
@@ -4773,7 +4773,7 @@
 		(uuid 17390b80-c913-4637-8668-ef8fe94189a2)
 	)
 	(rectangle
-		(start 170.815 76.2)
+		(start 163.83 76.2)
 		(end 279.4 167.64)
 		(stroke
 			(width 0.5)
@@ -4956,6 +4956,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e754cf4-3e89-44aa-9a3e-70a64756d92c")
+	)
+	(junction
+		(at 175.26 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b8cd0c4-8327-40c8-b833-0af6e239b937")
 	)
 	(junction
 		(at 220.98 38.1)
@@ -5155,6 +5161,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 137.16) (xy 35.56 140.97)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "08d841e1-873a-4bd9-9622-dba32c398c07")
+	)
+	(wire
+		(pts
 			(xy 62.23 73.66) (xy 88.9 73.66)
 		)
 		(stroke
@@ -5285,6 +5301,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 124.46) (xy 88.9 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "155f8fcd-dd9e-4ba3-a946-d429cdaa8bfd")
+	)
+	(wire
+		(pts
 			(xy 78.74 140.97) (xy 78.74 138.43)
 		)
 		(stroke
@@ -5312,6 +5338,16 @@
 			(type solid)
 		)
 		(uuid "171eaef2-784a-454f-bcca-0ed5d8f604d9")
+	)
+	(wire
+		(pts
+			(xy 95.25 127) (xy 88.9 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "172d959b-f25e-40d3-a1c4-112e7a9d0765")
 	)
 	(wire
 		(pts
@@ -5575,7 +5611,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 137.16) (xy 39.37 140.97)
+			(xy 40.64 137.16) (xy 40.64 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5812,6 +5848,16 @@
 			(type solid)
 		)
 		(uuid "5b2c483d-45f9-4a2c-910c-5b9746aa76ca")
+	)
+	(wire
+		(pts
+			(xy 95.25 125.73) (xy 95.25 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db0e064-da99-4677-8f29-d6b87f38855f")
 	)
 	(wire
 		(pts
@@ -6275,6 +6321,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 36.83) (xy 175.26 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1806c9e-dd0b-4432-b036-e0a0a01e1bed")
+	)
+	(wire
+		(pts
 			(xy 234.95 137.16) (xy 237.49 137.16)
 		)
 		(stroke
@@ -6422,6 +6478,16 @@
 			(type default)
 		)
 		(uuid "b26bd808-b893-4b77-9a64-361c24ac9758")
+	)
+	(wire
+		(pts
+			(xy 30.48 137.16) (xy 30.48 140.97)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b390caa3-13f9-42bf-82e2-bb98c242d647")
 	)
 	(wire
 		(pts
@@ -6642,6 +6708,16 @@
 			(type default)
 		)
 		(uuid "d327202f-5082-4976-9426-652c75035348")
+	)
+	(wire
+		(pts
+			(xy 168.91 35.56) (xy 168.91 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d32cb9d7-a585-4f7b-a93a-c9c118325481")
 	)
 	(wire
 		(pts
@@ -7417,6 +7493,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 30.48 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "032fdb02-30e3-4882-9ee2-9592868d3b51")
+		(property "Reference" "TP12"
+			(at 28.702 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 135.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 35.56 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 30.48 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc4738f1-ad22-4a03-a896-a2d31c61f6b3")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 88.9 113.03 0)
 		(unit 1)
@@ -7567,6 +7710,74 @@
 			(project "FED3_v7.3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 95.25 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09570358-03c4-46e1-b962-e98074881310")
+		(property "Reference" "TP9"
+			(at 97.79 121.1579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "VUSB"
+			(at 97.79 123.6979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 100.33 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "473dc80d-a373-4aa0-ae11-e647c564fa17")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -7865,16 +8076,15 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 39.37 140.97 0)
+		(at 40.64 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "131441bd-1126-4851-88d2-1adc278c9f33")
 		(property "Reference" "#PWR067"
-			(at 39.37 140.97 0)
+			(at 40.64 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7884,7 +8094,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 142.0494 0)
+			(at 38.862 144.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7893,7 +8103,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 140.97 0)
+			(at 40.64 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7902,7 +8112,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 140.97 0)
+			(at 40.64 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7911,7 +8121,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 39.37 140.97 0)
+			(at 40.64 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8917,6 +9127,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 168.91 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3eb1ab26-3141-4a3b-93f2-2ead6e49f167")
+		(property "Reference" "TP6"
+			(at 167.894 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3V3"
+			(at 167.64 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 173.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72f64a1f-a8d6-461a-ba20-74ea342423d8")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 46.99 66.04 0)
 		(mirror x)
@@ -9084,7 +9361,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 39.37 137.16 0)
+		(at 40.64 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9092,7 +9369,7 @@
 		(dnp no)
 		(uuid "47ef59bc-5a10-4747-8d85-95cc23ec3515")
 		(property "Reference" "TP5"
-			(at 37.592 131.826 0)
+			(at 38.862 131.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9101,7 +9378,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 135.1279 0)
+			(at 43.18 135.1279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9110,8 +9387,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
-			(at 44.45 137.16 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 45.72 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9120,7 +9397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 137.16 0)
+			(at 45.72 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9129,7 +9406,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 39.37 137.16 0)
+			(at 40.64 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10061,6 +10338,73 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
+		(at 30.48 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f44293a-174d-4100-a3b8-574f389fa61d")
+		(property "Reference" "#PWR076"
+			(at 30.48 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 28.448 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 30.48 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d3d8fc2-ba63-45ed-82fa-2649e9db5712")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
 		(at 222.25 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10910,6 +11254,73 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 35.56 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cdd5df2-cbb7-4982-a583-a4c822cc958a")
+		(property "Reference" "TP11"
+			(at 33.782 131.826 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 135.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 40.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 35.56 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afff9c14-a190-4a46-9adc-77d2fff7a895")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 48.26 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10937,7 +11348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 53.34 137.16 0)
 			(effects
 				(font
@@ -11384,6 +11795,73 @@
 			(project "FED3"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 35.56 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa68a05a-bd01-4b6e-b536-d657056fb0cf")
+		(property "Reference" "#PWR074"
+			(at 35.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.782 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 35.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7486eddb-025b-41c1-a5ad-6c248f3b0176")
+		)
+		(instances
+			(project "FED3"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -13103,7 +13581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 64.77 137.16 0)
 			(effects
 				(font
@@ -13267,7 +13745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 78.74 137.16 0)
 			(effects
 				(font

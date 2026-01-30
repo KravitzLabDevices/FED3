@@ -7693,7 +7693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 115.57 26.67 0)
 			(effects
 				(font
