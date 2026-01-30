@@ -11577,7 +11577,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "73af85fe-7005-4aaa-9a2c-b23d0ffa7591")
-		(at 200.675 114.1)
+		(at 200.5 113.9)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP9"
@@ -33212,7 +33212,7 @@
 		)
 	)
 	(gr_text "ON"
-		(at 200.81 126.6 90)
+		(at 200.8 126.425 90)
 		(layer "F.SilkS")
 		(uuid "6abc5405-37ea-40dd-bc71-8857286aa1d3")
 		(effects
@@ -33444,7 +33444,7 @@
 		)
 	)
 	(gr_text "OFF"
-		(at 200.775 119.1 90)
+		(at 200.775 119.175 90)
 		(layer "F.SilkS")
 		(uuid "e6308639-a172-4606-a0a4-3a9df7da63bd")
 		(effects
@@ -37013,12 +37013,12 @@
 		(uuid "f4bd4cf3-2e7a-49a5-8a12-f8e48b97dda6")
 	)
 	(segment
-		(start 199.475 115.3)
-		(end 198.15 115.3)
+		(start 198.15 115.3)
+		(end 199.1 115.3)
 		(width 0.21)
 		(layer "F.Cu")
 		(net 9)
-		(uuid "16e4bd84-54bb-48e0-8b8a-9d740e79321b")
+		(uuid "0c826548-a874-460b-a4d9-9e2e083b473f")
 	)
 	(segment
 		(start 190.925 110.4)
@@ -37045,12 +37045,12 @@
 		(uuid "5ce9631c-5dd9-41ba-a5f0-c1e9958f9131")
 	)
 	(segment
-		(start 200.675 114.1)
-		(end 199.475 115.3)
+		(start 199.1 115.3)
+		(end 200.5 113.9)
 		(width 0.21)
 		(layer "F.Cu")
 		(net 9)
-		(uuid "6906f424-6183-4ace-bd8b-cc4336486886")
+		(uuid "89479cc9-f0d0-4120-845f-05c058b36c82")
 	)
 	(segment
 		(start 188.33 109.1)
