@@ -1,0 +1,86 @@
+### Footprint positions - created on 2026-01-30T16:59:46+0000 ###
+### Printed by KiCad version 9.0.7
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                  Package                                                       PosX       PosY       Rot  Side
+                                                                                         192.5000   -99.0036    0.0000  top
+@HOLE0                                                                                   115.0011   -90.0036    0.0000  top
+@HOLE2                                                                                   135.5011  -103.0036    0.0000  top
+@HOLE2                                                                                   161.5011  -103.0036    0.0000  top
+@HOLE5                                                                                   104.7881  -100.7936    0.0000  top
+@HOLE6                                                                                   118.5011  -116.0036    0.0000  top
+AUX_I2C0  Qwiic                JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical            128.0000  -126.3000  180.0000  top
+B1        CR1220               CR1220                                                    168.4151   -91.3956   90.0000  top
+BZ1       Buzzer               Buzzer                                                    128.9846  -110.1800  180.0000  top
+C1        10µF                 C_0402_1005Metric                                         179.5000   -86.6000  180.0000  top
+C2        10µF                 C_0402_1005Metric                                         177.5000   -87.8000   90.0000  top
+C3        10µF                 C_0402_1005Metric                                         104.6000  -117.2000  -90.0000  top
+C4        10µF                 C_0402_1005Metric                                         113.4250  -125.9500  180.0000  top
+C5        1uF                  C_0402_1005Metric                                         173.5000  -123.4000   90.0000  top
+C6        1uF                  C_0402_1005Metric                                         159.9500  -123.2500   90.0000  top
+C7        1uF                  C_0402_1005Metric                                         146.1500  -123.3000   90.0000  top
+C8        1uF                  C_0402_1005Metric                                         134.5000  -123.3000   90.0000  top
+C9        1uF                  C_0402_1005Metric                                         113.3900   -99.6900  -90.0000  top
+C10       1uF                  C_0402_1005Metric                                         174.1555   -98.8124   90.0000  top
+C11       10µF                 C_0402_1005Metric                                         185.0500  -110.4500  180.0000  top
+C12       1uF                  C_0402_1005Metric                                         169.8800  -105.5875   90.0000  top
+C13       10µF                 C_0402_1005Metric                                         182.8250  -105.8000   90.0000  top
+C14       10µF                 C_0402_1005Metric                                         185.1000  -113.8500    0.0000  top
+C15       1uF                  C_0402_1005Metric                                         184.6250  -105.7500   90.0000  top
+C16       10µF                 C_0402_1005Metric                                         164.7500  -127.2500  -90.0000  top
+C17       22pF                 C_0402_1005Metric                                         167.1000  -108.7725   90.0000  top
+C18       22pF                 C_0402_1005Metric                                         167.1000  -110.7000  -90.0000  top
+C19       1uF                  C_0402_1005Metric                                         173.8800  -105.5875   90.0000  top
+C20       10µF                 C_0402_1005Metric                                         173.3000  -126.4750    0.0000  top
+C21       4.7nF                C_0402_1005Metric                                         196.8600  -113.3700  -90.0000  top
+C22       100nF                C_0402_1005Metric                                         169.0700  -117.9800  180.0000  top
+C23       100nF                C_0402_1005Metric                                         167.6200  -112.2800  -135.0000  top
+C24       100nF                C_0402_1005Metric                                         172.1600  -106.7800  180.0000  top
+CHG0      RED                  LED_0603_1608Metric                                       198.5000   -99.5000  -90.0000  top
+D1        TPD4E05U06DQA        USON-10_2.5x1.0mm_P0.5mm                                  191.8422  -107.1212  180.0000  top
+EXT0      STEREO_JACK          35RASMT2BHNTRX                                            199.8443   -92.6148  180.0000  top
+IC1       MC74VHC1GT125        SOT-23-5                                                  118.7000  -126.1000   90.0000  top
+IC2       TB6612FNG            SSOP24                                                    111.0111  -114.0016  180.0000  top
+IC4       RTC_PCF8523T         SO-8_3.9x4.9mm_P1.27mm                                    183.1471   -88.6016   90.0000  top
+J1        Conn_02x03_Odd_Even  PinHeader_2x03_P2.54mm_Vertical                           148.5820  -128.1097   90.0000  top
+J2        Conn_01x02_Odd_Even  PinHeader_1x02_P2.54mm_Vertical                           160.5500  -126.4000  -90.0000  top
+J3        USB4105-GF-A         USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal   199.5342  -107.0336   90.0000  top
+L0        RED                  LED_0603_1608Metric                                       160.0500  -112.5200  -90.0000  top
+L1        GREEN                LED_0603_1608Metric                                       161.9400  -112.5200  -90.0000  top
+MOTOR0    PINHD-1X5            1X05                                                      118.0011   -84.0036    0.0000  top
+Q1        DMP2035U-7           TSMT3                                                     118.8500  -121.7625  -90.0000  top
+R1        1k                   R_0402_1005Metric                                         129.1000  -102.7000   90.0000  top
+R2        1k                   R_0402_1005Metric                                         154.2000  -109.7000   90.0000  top
+R3        1k                   R_0402_1005Metric                                         176.3091   -98.8436   90.0000  top
+R4        4k7                  R_0402_1005Metric                                         181.8500  -111.2000  -90.0000  top
+R5        4k7                  R_0402_1005Metric                                         181.9000  -113.2000  -90.0000  top
+R6        1k                   R_0402_1005Metric                                         179.5200   -88.3000    0.0000  top
+R7        DNP                  R_0402_1005Metric                                         115.6000  -124.1500  180.0000  top
+R8        4k7                  R_0402_1005Metric                                         115.6000  -122.3000    0.0000  top
+R9        100k_0.1%            R_0402_1005Metric                                         122.7600  -120.3300   90.0000  top
+R10       4k7                  R_0402_1005Metric                                         187.1500   -97.6100  -90.0000  top
+R11       100k_0.1%            R_0402_1005Metric                                         187.9000  -110.4000    0.0000  top
+R12       330R                 R_0402_1005Metric                                         167.6700  -116.0250   90.0000  top
+R13       1.27k                R_0402_1005Metric                                         161.5500  -107.5000   90.0000  top
+R14       1.27k                R_0402_1005Metric                                         167.3098  -122.5284   90.0000  top
+R15       10k                  R_0402_1005Metric                                         160.0800  -109.5200   90.0000  top
+R16       100k_0.1%            R_0402_1005Metric                                         166.2854  -128.3000  180.0000  top
+R17       100k_0.1%            R_0402_1005Metric                                         168.4000  -128.3000    0.0000  top
+R18       4k7                  R_0402_1005Metric                                         164.8000  -124.0750   90.0000  top
+R19       DNP                  R_0402_1005Metric                                         166.0000  -124.0750   90.0000  top
+R20       10k                  R_0402_1005Metric                                         163.7000  -125.3500   90.0000  top
+R21       1k                   R_0402_1005Metric                                         161.5500  -109.5200  -90.0000  top
+R22       100k_0.1%            R_0402_1005Metric                                         118.3900  -119.7000    0.0000  top
+R23       5.1k                 R_0402_1005Metric                                         190.2460  -109.3216  180.0000  top
+R24       5.1k                 R_0402_1005Metric                                         190.2460  -104.9274  180.0000  top
+R25       1M                   R_0402_1005Metric                                         192.9000  -103.2200  -90.0000  top
+SCREEN0   PINHD-1X6            1X06                                                       97.2511  -105.2536  -90.0000  top
+SW2       SPST_TACT-KMR2       SW_SPST_TL3305B                                           177.8000  -122.1250  -90.0000  top
+U1        ATSAMD21G18A         TQFN48_7MM                                                173.8500  -112.6375  -90.0000  top
+U2        MIC5504-3.3          SOT-23-5                                                  187.3000  -107.3000   90.0000  top
+U3        MCP73834-xxxx        DFN-10-1EP_3x3mm_P0.5mm_EP1.58x2.35mm_ThermalVias         169.1706  -125.9000  180.0000  top
+X1        ClockXtal            CRYSTAL_8X3.8                                             182.6391   -97.4916  -90.0000  top
+X2        uXtal                Crystal_SMD_MicroCrystal_CC8V-T1A-2Pin_2.0x1.2mm          164.8750  -109.7250  -90.0000  top
+X3        B2B-PH-K-S           JST-XH-02-PACKAGE-ROUND-PAD                               140.4243  -125.7364  180.0000  top
+X4        microsd              MICROSD                                                   181.7700  -128.9000   90.0000  top
+## End
