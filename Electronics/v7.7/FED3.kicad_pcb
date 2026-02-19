@@ -22379,7 +22379,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "100k 0.1%"
 			(at 0 1.17 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22405,7 +22405,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 4.7k 1% 0.100W"
+		(property "Description" "SMD 0402 100kΩ ±0.1% 0.063W"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22418,7 +22418,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020010"
+		(property "OEPSPN" "OEPS020175"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22431,7 +22431,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF4701X"
+		(property "MPN" "RG1005P-104-B-T5"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
