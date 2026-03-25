@@ -12,9 +12,8 @@ Download the .stl files and slice them for your 3D printer from either the [FED3
 
 FED3.2 folder has a minor change to the Housing file to accomodate the FED3.2 version of the electronics without the Adalogger.  The other 5 parts are identical.
 
-Finally, the editable TinkerCAD files are [here](https://www.tinkercad.com/things/0QaiVw7KR3Y) if you want to mess with them! 
+Finally, the editable [TinkerCAD files are here](https://www.tinkercad.com/things/0QaiVw7KR3Y) if you want to mess with them! 
 
 <img width="900" alt="image" src="https://github.com/user-attachments/assets/4cfebc95-0963-43b0-afaf-0baa08e45871" />
 
 
-![TinkerCAD](https://raw.githubusercontent.com/KravitzLabDevices/FED3/main/photos/TinkerCAD.png)
