@@ -4,16 +4,17 @@ You'll need to print the following parts:
 - door
 - disk
 - lid
-- nosepiece
+- nosepiece (recommended to send this out for printing in steel, as mice will chew plastic parts)
   
-Download the .stl files and slice them for your 3D printer. The other folders are for advanced users, including some CNC parts, Solidworks files, and older designs.
+Download the .stl files and slice them for your 3D printer from either the [FED3.1](https://github.com/KravitzLabDevices/FED3/tree/main/3Ddesigns/FED3.1) or [FED3.2](https://github.com/KravitzLabDevices/FED3/tree/main/3Ddesigns/FED3.2) folder. The Older_designs and Beta_designs folders are for advanced users, including some CNC parts, Solidworks files, and beta designs.
 
-3D parts should be printed in the orientation they are in in the .stl files, the housing and side door will require supports to print. Try printing parts slowly and at high quality for best results. The critical parts to print well are the housing and the disk, as these parts form the dispensing mechanism. Do not use a raft on the disk, you want a smooth flat bottom surface.
+3D parts should be printed in the orientation they are in in the .stl files, the housing and side door will require supports to print. Try printing parts slowly and at high quality for best results. The critical parts to print well are the housing and the disk, as these parts form the dispensing mechanism. Do not use a raft on the disk, you want a smooth flat bottom surface.  Alternatively (and recommended) - send these parts out for professional printing with HP Multi-Jet Fusion Nylon12, or a simila process.
 
-Two .stl files are included for the SD door - if you have an older FED3 circuit board with the large BNC connector print "FED3.1_Aug2021_SDdoor_BNC.stl", if you have a newer circuit board with a 3.5mm audio jack print "FED3.1_Aug2021_SDdoor_Audio.stl". All other parts work for both ciruit boards.
-
-File "Updated FED3 Housing OEPS Aug2025.stl" corresponds to the FED3.2 version of the electronics without the Adalogger.
+FED3.2 folder has a minor change to the Housing file to accomodate the FED3.2 version of the electronics without the Adalogger.  The other 5 parts are identical.
 
 Finally, the editable TinkerCAD files are [here](https://www.tinkercad.com/things/0QaiVw7KR3Y) if you want to mess with them! 
+
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/4cfebc95-0963-43b0-afaf-0baa08e45871" />
+
 
 ![TinkerCAD](https://raw.githubusercontent.com/KravitzLabDevices/FED3/main/photos/TinkerCAD.png)
